@@ -12,7 +12,7 @@ We document the development of our robot, from mechanical and electronic compone
 - [ Mechanics](/Mechanics) → CAD models, mechanical drawings, and assemblies  
 - [ Software](/Software) → Source code and control algorithms
 - [ Media](/Media) → Photos, videos, and graphical material
-- [ Other](/Others) → Other essential files
+- [ Other](/Other) → Other essential files
 ---
 
 ##  Cyberplátano Team 👥
