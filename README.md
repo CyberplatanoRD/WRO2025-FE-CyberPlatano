@@ -1,4 +1,4 @@
-# 🤖 Cyberplátano RD - World Robot Olympiad 2025
+# Cyberplátano RD - World Robot Olympiad 2025
 ---
 
 ## 📖 Project Documentation
