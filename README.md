@@ -10,9 +10,9 @@ We document the development of our robot, from mechanical and electronic compone
 ## 📂 Repository Overview
 - [ Electronics](/Electronics) → Circuits, schematics, and wiring diagrams  
 - [ Mechanics](/Mechanics) → CAD models, mechanical drawings, and assemblies  
-- [ Software](/Software) → Source code, control algorithms, and simulations  
-- [ Media](/Media) → Renders, photos, videos, and graphical material  
-
+- [ Software](/Software) → Source code and control algorithms
+- [ Media](/Media) → Photos, videos, and graphical material
+- [ Other](/Others) → Other essential files
 ---
 
 ##  Cyberplátano Team 👥
