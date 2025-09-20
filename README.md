@@ -8,10 +8,10 @@ We document the development of our robot, from mechanical and electronic compone
 ---
 
 ## 📂 Repository Overview
-- [ Electronics](/electronics) → Circuits, schematics, and wiring diagrams  
-- [ Mechanics](/mechanics) → CAD models, mechanical drawings, and assemblies  
-- [ Software](/software) → Source code, control algorithms, and simulations  
-- [ Media](/media) → Renders, photos, videos, and graphical material  
+- [ Electronics](/Electronics) → Circuits, schematics, and wiring diagrams  
+- [ Mechanics](/Mechanics) → CAD models, mechanical drawings, and assemblies  
+- [ Software](/Software) → Source code, control algorithms, and simulations  
+- [ Media](/Media) → Renders, photos, videos, and graphical material  
 
 ---
 
