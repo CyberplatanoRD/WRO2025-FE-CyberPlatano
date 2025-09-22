@@ -53,14 +53,17 @@ This repository contains all files, codes, and designs used by **Cyberplátano R
 | Raspberry Pi 5 | Main computer used for high-level processing   |  1  | $98.00    |
 | ESP32 | Microcontroller responsible for real-time control of motors and sensors.|  1  | $10.00  |
 | Motor Lego NXT | DC motor with encoder used for driving the wheels |  1  | $7.00  |
+| NXT Lego Cable | Connects NXT motors and sensors to the control electronics. |  1  | $4.00 |
+| 65mm Wheels | Provide traction and mobility to the robot. |  4  | $5.00 |
 | H-Bridge (L298N) | Motor driver that allows bidirectional control of the DC motors, enabling forward and backward movement. |  1  | $2.50 |
 | Webcam | Captures real-time video feed for visual processing |  1  | $20.00  |
-| Servo Motor HS-485HB | Controls steering (front axle movement) or small actuations requiring angular precision. |  1  | $  |
-| Ultrasonic Sensor (HC-SR04) | Measures distance to nearby objects for obstacle detection and wall avoidance. |  3  | $4.50 C/U|
-| MPU9250| nertial Measurement Unit (IMU) that provides accelerometer, gyroscope, and magnetometer data for orientation and navigation. |  1  | $15.00 
-
-
-
+| Servo Motor HS-485HB | Controls steering (front axle movement) or small actuations requiring angular precision. |  1  | $23.00 |
+| Ultrasonic Sensor (HC-SR04) | Measures distance to nearby objects for obstacle detection and wall avoidance. |  3  | $4.50 each |
+| MPU9250| nertial Measurement Unit (IMU) that provides accelerometer, gyroscope, and magnetometer data for orientation and navigation. |  1  | $18.00 |
+| Switch SPST 6A | Main power switch to safely turn the robot ON/OFF. |  1  | $0.50 |
+| Push Button| Used as a start/stop input for robot operation. |  1  | $1.50 |
+| Lego Motor Shaft | Mechanical part that transfers torque from the motor to the wheels/axle. |  1  | $0.10 |
+| PLA Filament (Polylactic Acid) | Material used for 3D printing the chassis and custom parts of the robot due to its light weight and ease of printing. |  1  | $25.00 |
 
 ## 3D Design
 
