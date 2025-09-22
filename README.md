@@ -36,7 +36,7 @@ This repository contains all files, codes, and designs used by **Cyberplátano R
 
 ##  Repository Overview
 * `extras` - Other essential files
-* `images` - phots and videos 
+* `images` - Phots and videos 
 * `models` - 3D CAD files
 * `schemes` - Electrical schematics
 * `src` - Main and other programs to run/control software
@@ -48,6 +48,10 @@ This repository contains all files, codes, and designs used by **Cyberplátano R
 
 ## Hardware
 ### Materials List
+| Name | Purpose  | Price |
+| ----------- | ----------- | ----------- |
+|      |    $ |
+|     | | $ | 
 
 ## 3D Design
 
