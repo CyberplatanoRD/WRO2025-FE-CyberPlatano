@@ -50,7 +50,9 @@ This repository contains all files, codes, and designs used by **Cyberplátano R
 ### Materials List
 | Name | Purpose  | Quantity | Price |
 | ----------- | ----------- | ----------- |  ----------- |
-| Raspberry Pi 5 |     |$   | $     |
+| Raspberry Pi 5 | Main computer used for high-level processing   |  1  | $98.00    |
+| ESP32 | Microcontroller responsible for real-time control of motors and sensors.|  1  | $10.00  |
+
 
 ## 3D Design
 
