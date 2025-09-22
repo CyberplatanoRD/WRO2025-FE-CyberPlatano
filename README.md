@@ -34,6 +34,14 @@ This repository contains all files, codes, and designs used by **Cyberplátano R
       - ["4th fogueo"](#"4th-fogueo")
 - 9. [ Instructions](extras/)
 
+##  Introduction
+This repository documents the journey of Cyberplátano RD, a team representing the Dominican Republic in the World Robot Olympiad (WRO) 2025 – Future Engineers Category, to be held in Panama.
+
+Our goal is to design, build, and program an autonomous robot car capable of completing the competition challenges: the Open Challenge and the Obstacle Challenge. The project integrates mechanical design, electronics, and software, combining skills from 3D printing, circuit design, and programming in C++ and Python.
+
+By sharing our process through this repository, we aim to provide transparency in our work, create a detailed record of our engineering decisions, and contribute to the global robotics community. Every step, from materials and schematics to testing and results, is documented here.
+
+
 ##  Repository Overview
 * `extras` - Other essential files
 * `images` - Phots and videos 
