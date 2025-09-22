@@ -40,3 +40,23 @@ This repository contains all files, codes, and designs used by **Cyberplátano R
 * `models` - 3D CAD files
 * `schemes` - Electrical schematics
 * `src` - Main and other programs to run/control software
+
+##  Team Members
+* Ivan Saint-Hilaire, ivanrma0702@gmail.com
+* Brittany Martinez, martinezp.brtt@gmail.com
+* Maria Ramos, ramosbinetm@gmail.com
+
+## Hardware
+
+
+## 3D Design
+
+
+## Software
+
+## Schematics
+
+
+## Testing
+
+## Instructions
