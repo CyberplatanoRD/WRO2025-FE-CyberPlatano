@@ -24,7 +24,7 @@ This repository contains all files, codes, and designs used by **Cyberplátano R
 - 6. [ Software](src/)
       - [Open challenge](#open-challenge)
       - [Obstacle challenge](#obstacle-challenge)
-- 7. [ Schematics](schems/) 
+- 7. [ Schematics](schemes/) 
       - [PCB layout](#pcb-layout)
       - [Diagram](#diagram)
 - 8. [ Testing](extras/)
