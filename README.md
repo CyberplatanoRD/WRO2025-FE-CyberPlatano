@@ -73,6 +73,8 @@ By sharing our process through this repository, we aim to provide transparency i
 | Lego Motor Shaft | Mechanical part that transfers torque from the motor to the wheels/axle. |  1  | $0.10 |
 | PLA Filament (Polylactic Acid) | Material used for 3D printing the chassis and custom parts of the robot due to its light weight and ease of printing. |  1  | $25.00 |
 
+**Total Car Cost: $219.10 CAD**
+
 ## 3D Design
 
 
