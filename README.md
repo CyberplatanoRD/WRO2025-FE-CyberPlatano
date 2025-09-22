@@ -1,11 +1,32 @@
-# Cyberplátano RD - World Robot Olympiad 2025
----
+# Cyberplátano RD - WRO 2025 Panama 
 
-## Project Documentation
-This repository contains all files, codes, and designs used by **Cyberplátano RD** for the **Future Engineers category - WRO 2025**.  
-We document the development of our robot, from mechanical and electronic components to programming and simulation.
+> Dominican Republic • Future Engineers • 2025
 
 ---
+
+## Engineering Documentation
+This repository contains all files, codes, and designs used by **Cyberplátano RD** for the **Future Engineers category - WRO 2025 - Panama**.  We document the development of our robot, from mechanical and electronic components to programming and simulation.
+
+---
+- 1. [Introduction](#introduction)  
+- 2. [Repository Overview] (#repository-overview)
+- 3. [Team Members](#team-members)  
+- 4. [ Components](#components)
+    -
+    - [Materials List](#materials-list)
+      - [Raspberry Pi 5](#raspberry-pi-5)
+      - [ESP32](#esp32)
+      - [Battery and charger](#battery-and-charger)
+      - [Motor Lego NXT](#motor-lego-nxt)
+      - [Webcam](#webcam)
+      - [Servo motor HS-485HB](#servo-motor-hs-485hb)
+      - [Bridge H (L298N)](#bridge-h-l298n)
+      - [Ultrasonic sensor (HC-S04)](#ultrasonic-sensor-hc-s04)
+      - [MPU9250] (#mpu9250)
+      - [Others] (#others)
+        - [Cable NXT lego ] (#cable nxt lego)
+
+
 
 ##  Repository Overview
 - [ Electronics](/Electronics) → Circuits, schematics, and wiring diagrams  
@@ -90,3 +111,4 @@ It integrates a steering system with a servo, DC motor propulsion, ultrasonic se
 Step-by-step instructions to assemble the robot (documentation + photos in `/mechanics` and `/electronics`).  
 
 ---
+
