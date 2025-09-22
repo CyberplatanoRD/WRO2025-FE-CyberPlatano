@@ -48,7 +48,7 @@ This repository contains all files, codes, and designs used by **Cyberplátano R
 
 ## Hardware
 ### Materials List
-| Name | Purpose  | Quantity | | Price |
+| Name | Purpose  | Quantity | Price |
 | ----------- | ----------- | ----------- |  ----------- |
 | Raspberry Pi 5 |     |$   | $     |
 
