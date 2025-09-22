@@ -35,3 +35,8 @@ This repository contains all files, codes, and designs used by **Cyberplátano R
 - 9. [ Instructions](extras/)
 
 ##  Repository Overview
+* `extras` - Other essential files
+* `images` - phots and videos 
+* `models` - 3D CAD files
+* `schemes` - Electrical schematics
+* `src` - Main and other programs to run/control software
