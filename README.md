@@ -9,9 +9,9 @@ This repository contains all files, codes, and designs used by **Cyberplátano R
 
 ---
 - 1. [Introduction](#introduction)  
-- 2. [Repository Overview] (#repository-overview)
+- 2. [Repository Overview](#repository-overview)
 - 3. [Team Members](#team-members)  
-- 4. [ Components](#components)
+- 4. [Components](#components)
     -
     - [Materials List](#materials-list)
       - [Raspberry Pi 5](#raspberry-pi-5)
@@ -22,9 +22,9 @@ This repository contains all files, codes, and designs used by **Cyberplátano R
       - [Servo motor HS-485HB](#servo-motor-hs-485hb)
       - [Bridge H (L298N)](#bridge-h-l298n)
       - [Ultrasonic sensor (HC-S04)](#ultrasonic-sensor-hc-s04)
-      - [MPU9250] (#mpu9250)
-      - [Others] (#others)
-        - [Cable NXT lego ] (#cable nxt lego)
+      - [MPU9250](#mpu9250)
+      - [Others](#others)
+        - [Cable NXTlego ](#cable-nxt-lego)
 
 
 
