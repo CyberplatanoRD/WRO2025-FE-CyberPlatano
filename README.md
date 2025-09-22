@@ -47,7 +47,7 @@ This repository contains all files, codes, and designs used by **Cyberplátano R
 * Maria Ramos, ramosbinetm@gmail.com
 
 ## Hardware
-
+### Materials List
 
 ## 3D Design
 
