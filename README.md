@@ -75,14 +75,47 @@ By sharing our process through this repository, we aim to provide transparency i
 
 **Total Car Cost: $219.10 CAD**
 
+### Chasis & Mobility
+
+### Motors & Drivers
+
+### Power & Wiring
+
+### Sensors
+
+---
+
 ## 3D Design
 
+### Assembly
+
+### Final Robot
+
+---
 
 ## Software
 
+### Open challenge
+
+### Obstacle challenge
+
+---
+
 ## Schematics
 
+### PCB layout
+
+### Diagram
+
+---
 
 ## Testing
+
+### "1st fogueo"
+### "2nd fogueo"
+### "3rd fogueo"
+### "4th fogueo"
+
+---
 
 ## Instructions
