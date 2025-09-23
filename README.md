@@ -75,6 +75,8 @@ By sharing our process through this repository, we aim to provide transparency i
 
 **Total Car Cost: $219.10 CAD**
 
+---
+
 ### Chasis & Mobility
 
 ### Motors & Drivers
