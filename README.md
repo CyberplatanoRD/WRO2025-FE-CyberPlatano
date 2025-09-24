@@ -97,7 +97,15 @@ The robot uses a hybrid actuation system that combines DC motors and servos to a
 
 
 ### Power & Wiring
+Our robot uses **two separate battery packs**, each consisting of two 18650 Li-ion cells, to power different parts of the system and ensure stable operation.
 
+- Battery Pack 1: Connected to a 5 V 3 A UPS. This pack powers the Raspberry Pi 5, providing uninterrupted power supply to handle high-level processing and computer vision tasks. The UPS ensures that the Pi stays powered even if the main battery momentarily drops or during short interruptions, which is critical during competition.
+
+- Battery Pack 2: Connected to a XL4015 step-down voltage regulator set to 5 V. This pack supplies power to the ESP32, motors, and servo, delivering a stable voltage for real-time control of actuators and sensors. The regulated output ensures that PWM signals and sensor readings remain consistent and reliable.
+
+The chassis is designed with pre-drilled holes and channels for cable management, keeping wires organized and preventing interference with moving parts. Both battery packs are mounted to maintain a low and centered center of gravity, improving stability. A SPST 6 A switch serves as the main power on/off control, and a push button is used to start or stop the robot’s programs.
+
+This dual-battery system separates high-load electronics from control circuits, reducing voltage drops and improving overall reliability during testing and competition runs.
 
 ### Sensors
 
