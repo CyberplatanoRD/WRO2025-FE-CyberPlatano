@@ -89,6 +89,10 @@ The robot uses a hybrid actuation system that combines DC motors and servos to a
 
 <img width="600" height="450" alt="image" src="https://github.com/user-attachments/assets/0ef4ceb7-88f6-4a08-ac8c-b252dd549d79" />
 
+**Motor Lego NXT**	
+
+
+
 ### Power & Wiring
 
 
