@@ -62,7 +62,7 @@ By sharing our process through this repository, we aim to provide transparency i
 | ESP32 | Microcontroller responsible for real-time control of motors and sensors.|  1  | $10.00  |
 | Motor Lego NXT | DC motor with encoder used for driving the wheels |  1  | $7.00  |
 | NXT Lego Cable | Connects NXT motors and sensors to the control electronics. |  1  | $4.00 |
-| 65mm Wheels | Provide traction and mobility to the robot. |  4  | $5.00 |
+| 62mm Wheels | Provide traction and mobility to the robot. |  4  | $5.00 |
 | H-Bridge (L298N) | Motor driver that allows bidirectional control of the DC motors, enabling forward and backward movement. |  1  | $2.50 |
 | Webcam | Captures real-time video feed for visual processing |  1  | $20.00  |
 | Servo Motor HS-485HB | Controls steering (front axle movement) or small actuations requiring angular precision. |  1  | $23.00 |
@@ -73,11 +73,16 @@ By sharing our process through this repository, we aim to provide transparency i
 | Lego Motor Shaft | Mechanical part that transfers torque from the motor to the wheels/axle. |  1  | $0.10 |
 | PLA Filament (Polylactic Acid) | Material used for 3D printing the chassis and custom parts of the robot due to its light weight and ease of printing. |  1  | $25.00 |
 
-**Total Car Cost: $219.10 CAD**
+**Total Car Cost: $219.10US**
 
 ---
 
 ### Chasis & Mobility
+The chassis is 3D-printed using black PLA filament, optimized for both light weight and structural strength. The frame includes pre-designed holes and channels to allow clean and secure wiring, reducing clutter and preventing loose cables from interfering with moving parts. 
+
+- 4 × 65 mm wheels, with rear-wheel drive and front steering controlled by a servo.
+
+- Heavy components (battery, drivers) are placed low and centered to improve stability.
 
 ### Motors & Drivers
 
