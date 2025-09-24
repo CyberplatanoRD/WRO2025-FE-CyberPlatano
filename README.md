@@ -67,7 +67,7 @@ By sharing our process through this repository, we aim to provide transparency i
 | Webcam | Captures real-time video feed for visual processing |  1  | $20.00  |
 | Servo Motor HS-485HB | Controls steering (front axle movement) or small actuations requiring angular precision. |  1  | $23.00 |
 | Ultrasonic Sensor (HC-SR04) | Measures distance to nearby objects for obstacle detection and wall avoidance. |  3  | $4.50 each |
-| MPU9250| nertial Measurement Unit (IMU) that provides accelerometer, gyroscope, and magnetometer data for orientation and navigation. |  1  | $18.00 |
+| MPU9250| Inertial Measurement Unit (IMU) that provides accelerometer, gyroscope, and magnetometer data for orientation and navigation. |  1  | $18.00 |
 | Switch SPST 6A | Main power switch to safely turn the robot ON/OFF. |  1  | $0.50 |
 | Push Button| Used as a start/stop input for robot operation. |  1  | $1.50 |
 | Lego Motor Shaft | Mechanical part that transfers torque from the motor to the wheels/axle. |  1  | $0.10 |
@@ -85,6 +85,7 @@ The chassis is 3D-printed using black PLA filament, optimized for both light wei
 - Heavy components (battery, drivers) are placed low and centered to improve stability.
 
 ### Motors & Drivers
+The robot uses a hybrid actuation system that combines DC motors and servos to achieve both propulsion and precise steering. Propulsion is provided by a **Lego NXT DC** motor with an integrated encoder, which drives the rear wheels and supplies feedback for odometry, allowing the system to estimate both speed and distance traveled. The motor is controlled through an **L298N H-Bridge driver**, which enables bidirectional motion and PWM-based speed regulation. Although not the most power-efficient driver, the L298N was chosen for its reliability, simplicity, and compatibility with 5 V logic levels. Steering is handled by an HS-485HB servo motor mounted on the front axle. This servo provides accurate angular positioning, enabling the robot to perform precise maneuvers on the competition track. Torque is transmitted to the wheels using a custom Lego motor shaft, designed to be modular so that parts can be replaced quickly during testing or competition.
 
 ### Power & Wiring
 
