@@ -91,6 +91,9 @@ The robot uses a hybrid actuation system that combines DC motors and servos to a
 
 **Motor Lego NXT**	
 
+<img width="750" height="500" alt="image" src="https://github.com/user-attachments/assets/c509f6f4-3782-4f07-acd4-867940a67faf" />
+
+**L298N H-Bridge**	
 
 
 ### Power & Wiring
