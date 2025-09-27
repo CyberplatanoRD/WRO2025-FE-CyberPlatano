@@ -87,11 +87,11 @@ The chassis is 3D-printed using black PLA filament, optimized for both light wei
 ### Motors & Drivers
 The robot uses a hybrid actuation system that combines DC motors and servos to achieve both propulsion and precise steering. Propulsion is provided by a **Lego NXT DC** motor with an integrated encoder, which drives the rear wheels and supplies feedback for odometry, allowing the system to estimate both speed and distance traveled. The motor is controlled through an **L298N H-Bridge driver**, which enables bidirectional motion and PWM-based speed regulation. Although not the most power-efficient driver, the L298N was chosen for its reliability, simplicity, and compatibility with 5 V logic levels. Steering is handled by an HS-485HB servo motor mounted on the front axle. This servo provides accurate angular positioning, enabling the robot to perform precise maneuvers on the competition track. Torque is transmitted to the wheels using a custom Lego motor shaft, designed to be modular so that parts can be replaced quickly during testing or competition.
 
-<img width="600" height="450" alt="image" src="https://github.com/user-attachments/assets/0ef4ceb7-88f6-4a08-ac8c-b252dd549d79" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/0ef4ceb7-88f6-4a08-ac8c-b252dd549d79" />
 
 **Motor Lego NXT**	
 
-<img width="750" height="500" alt="image" src="https://github.com/user-attachments/assets/c509f6f4-3782-4f07-acd4-867940a67faf" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/c509f6f4-3782-4f07-acd4-867940a67faf" />
 
 **L298N H-Bridge**	
 
