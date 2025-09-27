@@ -117,6 +117,7 @@ This dual-battery system separates high-load electronics from control circuits, 
 - **Connection:** Works with the ESP32 through digital pins (Trig and Echo).  
 - **Power:** 5V.  
 
+<img width="750" height="500" alt="HC-SR04 Pinout" src="https://github.com/user-attachments/assets/c509f6f4-3782-4f07-acd4-867940a67faf" />
 
 
 2. **IMU MPU-9250 (Accelerometer + Gyroscope + Magnetometer)**  
