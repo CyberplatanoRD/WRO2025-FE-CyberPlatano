@@ -117,7 +117,7 @@ This dual-battery system separates high-load electronics from control circuits, 
 - **Connection:** Works with the ESP32 through digital pins (Trig and Echo).  
 - **Power:** 5V.  
 
-![HC-SR04](images/image.png) 
+
 
 2. **IMU MPU-9250 (Accelerometer + Gyroscope + Magnetometer)**  
 
@@ -129,7 +129,7 @@ This dual-battery system separates high-load electronics from control circuits, 
 - **Connection:** Communicates with the ESP32 using I2C (SDA & SCL).  
 - **Power:** 3.3V (⚠️ important: cannot be connected to 5V).  
 
-![IMU MPU-9250](images/image-1.png)
+
 
 
 3. **Webcam**  
@@ -141,7 +141,7 @@ This dual-battery system separates high-load electronics from control circuits, 
 - **Connection:** USB to Raspberry Pi 5.  
 - **Power:** Powered by Raspberry Pi.  
 
-![Webcam](images/image-2.png)
+
 
 ---
 
@@ -171,7 +171,7 @@ This folder represents the **reference design** for manufacturing and testing.
 ## Schematics
 
 ### Diagram - Preview
-![Diagram](images/image-3.png)
+
 
 ### PCB layout - Preview
 
