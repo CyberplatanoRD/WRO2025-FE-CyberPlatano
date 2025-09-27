@@ -117,7 +117,7 @@ This dual-battery system separates high-load electronics from control circuits, 
 - **Connection:** Works with the ESP32 through digital pins (Trig and Echo).  
 - **Power:** 5V.  
 
-<img width="750" height="370" alt="HC-SR04 Ultrasonic Sensor" src="https://images.theengineeringprojects.com/image/main/2018/10/Introduction-to-HC-SR04.jpg" />
+<img width="500" height="500" alt="HC-SR04 Ultrasonic Sensor" src="https://images.theengineeringprojects.com/image/main/2018/10/Introduction-to-HC-SR04.jpg" />
 
 
 2. **IMU MPU-9250 (Accelerometer + Gyroscope + Magnetometer)**  
@@ -130,7 +130,7 @@ This dual-battery system separates high-load electronics from control circuits, 
 - **Connection:** Communicates with the ESP32 using I2C (SDA & SCL).  
 - **Power:** 3.3V (⚠️ important: cannot be connected to 5V).  
 
-<img width="600" height="400" alt="MPU-9250 Accelerometer Gyroscope Magnetometer Module Axis Orientation" src="https://protosupplies.com/wp-content/uploads/2019/03/MPU-9250-Accel-Gyro-and-Mag-Module-Axis-Orientation.jpg" />
+<img width="500" height="500" alt="MPU-9250 Accelerometer Gyroscope Magnetometer Module Axis Orientation" src="https://protosupplies.com/wp-content/uploads/2019/03/MPU-9250-Accel-Gyro-and-Mag-Module-Axis-Orientation.jpg" />
 
 
 3. **Webcam**  
@@ -142,7 +142,7 @@ This dual-battery system separates high-load electronics from control circuits, 
 - **Connection:** USB to Raspberry Pi 5.  
 - **Power:** Powered by Raspberry Pi.  
 
-<img width="750" height="500" alt="j5create JVCU100 USB Video Capture Adapter" src="https://info.j5create.com/cdn/shop/products/JVCU100-1-2_2400x.jpg?v=1593027468" />
+<img width="500" height="500" alt="j5create JVCU100 USB Video Capture Adapter" src="https://info.j5create.com/cdn/shop/products/JVCU100-1-2_2400x.jpg?v=1593027468" />
 
 ---
 
