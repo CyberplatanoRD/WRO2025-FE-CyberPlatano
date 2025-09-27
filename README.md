@@ -146,26 +146,34 @@ This dual-battery system separates high-load electronics from control circuits, 
 ---
 
 ## 3D Design
+> CAD and STL files available in [models/](models/).
+
 
 ### Assembly
 
-### Final Robot
+
+
+### Final Robot 
+This folder represents the **reference design** for manufacturing and testing.  
+ 
+
+
 
 ---
 
 ## Software
 
-### Open challenge
-
+### Open challenge - Previ
 ### Obstacle challenge
 
 ---
 
 ## Schematics
 
-### PCB layout
+### Diagram - Preview
+![alt text](image-3.png)
 
-### Diagram
+### PCB layout - Preview
 
 ---
 
