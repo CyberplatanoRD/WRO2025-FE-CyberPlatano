@@ -109,6 +109,40 @@ This dual-battery system separates high-load electronics from control circuits, 
 
 ### Sensors
 
+1. **Ultrasonic Sensor (HC-SR04)**  
+- **How it works:** Sends out sound waves and measures how long they take to bounce back.  
+- **What it does in our robot:**  
+  - Detects walls and obstacles.  
+  - Helps during the *Obstacle Challenge*.  
+- **Connection:** Works with the ESP32 through digital pins (Trig and Echo).  
+- **Power:** 5V.  
+
+![alt text](image.png) 
+
+2. **IMU MPU-9250 (Accelerometer + Gyroscope + Magnetometer)**  
+
+ - **How it works:** Combines accelerometer, gyroscope, and magnetometer data.  
+- **What it does in our robot:**  
+  - Measures tilt, rotation, and direction.  
+  - Keeps the robot driving in a straight line.  
+  - Helps smooth out turns.  
+- **Connection:** Communicates with the ESP32 using I2C (SDA & SCL).  
+- **Power:** 3.3V (⚠️ important: cannot be connected to 5V).  
+
+![alt text](image-1.png)
+
+
+3. **Webcam**  
+
+- **How it works:** Captures images and sends them to the Raspberry Pi 5.  
+- **What it does in our robot:**  
+  - Detects lanes, colors, or markers.  
+  - Allows real-time testing with visual feedback.  
+- **Connection:** USB to Raspberry Pi 5.  
+- **Power:** Powered by Raspberry Pi.  
+
+![alt text](image-2.png)
+
 ---
 
 ## 3D Design
