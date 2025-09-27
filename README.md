@@ -142,7 +142,7 @@ This dual-battery system separates high-load electronics from control circuits, 
 - **Connection:** USB to Raspberry Pi 5.  
 - **Power:** Powered by Raspberry Pi.  
 
-<img width="750" alt="j5create JVCU100 USB Video Capture Adapter" src="https://info.j5create.com/cdn/shop/products/JVCU100-1-2_2400x.jpg?v=1593027468" />
+<img width="750" height="500" alt="j5create JVCU100 USB Video Capture Adapter" src="https://info.j5create.com/cdn/shop/products/JVCU100-1-2_2400x.jpg?v=1593027468" />
 
 ---
 
