@@ -201,7 +201,7 @@ void loop() {
 
 // ...rest of preview code...
 
-` ``` `
+```
 ---
 
 ### Obstacle challenge
