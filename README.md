@@ -5,7 +5,7 @@
 ---
 
 ## Engineering Documentation
-This repository contains all files, codes, and designs used by **CyberPlátano RD** for the **Future Engineers category - WRO 2025 - Panama**.  We document the development of our robot, from mechanical and electronic components to programming and simulation.
+This repository contains all files, codes, and designs used by **CyberPlátano RD** for the **Future Engineers category - WRO 2025 - Panamá**.  We document the development of our robot, from mechanical and electronic components to programming and simulation.
 
 ---
 ## Index
@@ -211,12 +211,10 @@ void loop() {
 ## Schematics
 
 ### Diagram - Preview
-[View full PDF](./schemes/WRO_Generalsquematic..pdf)
 
-![Schematic Preview](./schemes/WRO_Generalsquematicpreview.png)
+![Schematic Preview](./schemes/Generalsquematicpreview.png)
 
-
-
+[View full PDF](./schemes/WRO_Generalsquematic.pdf)
 
 
 ### PCB layout - Preview
