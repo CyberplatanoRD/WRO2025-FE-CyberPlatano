@@ -5,7 +5,7 @@
 ---
 
 ## Engineering Documentation
-This repository contains all files, codes, and designs used by **Cyberplátano RD** for the **Future Engineers category - WRO 2025 - Panama**.  We document the development of our robot, from mechanical and electronic components to programming and simulation.
+This repository contains all files, codes, and designs used by **CyberPlátano RD** for the **Future Engineers category - WRO 2025 - Panama**.  We document the development of our robot, from mechanical and electronic components to programming and simulation.
 
 ---
 ## Index
