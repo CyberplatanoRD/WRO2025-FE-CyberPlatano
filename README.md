@@ -212,6 +212,9 @@ void loop() {
 
 ### Diagram - Preview
 
+## Schematics - PDF Preview
+
+[Click here to view the full schematic PDF](./schemes/WRO_Generalesquematic.pdf)
 
 ### PCB layout - Preview
 
@@ -223,7 +226,9 @@ void loop() {
 ### "2nd fogueo"
 ### "3rd fogueo"
 ### "4th fogueo"
-
+### "5th fogueo"
+### "6th fogueo"
+### "7th fogueo"
 ---
 
 ## Instructions
