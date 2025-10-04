@@ -166,6 +166,7 @@ This is the **second version of the CyberPlátanoRD robot** for WRO 2025.
 ---
 
 ## Software
+> CPP and Python codes files available in [src/](src/).
 
 ### Open challenge - Preview
 
@@ -209,6 +210,7 @@ void loop() {
 ---
 
 ## Schematics
+> Diagrams and PCB Layout files available in [schemes/](schemes/).
 
 ### Diagram - Preview
 [View full PDF](./schemes/WRO_Generalsquematic.pdf)
