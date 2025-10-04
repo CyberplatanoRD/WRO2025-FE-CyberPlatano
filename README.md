@@ -199,8 +199,9 @@ void loop() {
   servoMotor.write(map((int)yaw % 360, 0, 360, 50, 130));
 }
 
----
+// ...rest of preview code...
 
+---
 
 ### Obstacle challenge
 
