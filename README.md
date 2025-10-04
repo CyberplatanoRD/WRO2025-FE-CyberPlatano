@@ -212,9 +212,11 @@ void loop() {
 
 ### Diagram - Preview
 
-## Schematics - PDF Preview
+![Schematic Preview](./schemes/WRO_Generalesquematic.png)
 
-[Click here to view the full schematic PDF](./schemes/WRO_Generalesquematic.pdf)
+[View full PDF](./schemes/WRO_Generalesquematic.pdf)
+
+
 
 ### PCB layout - Preview
 
