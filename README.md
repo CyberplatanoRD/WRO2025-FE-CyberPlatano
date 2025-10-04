@@ -157,8 +157,7 @@ This dual-battery system separates high-load electronics from control circuits, 
 ### Final Robot 
 This folder represents the **reference design** for manufacturing and testing.  
  
-
-
+![Isometric View](./images/Isometric.jpeg)
 
 ---
 
