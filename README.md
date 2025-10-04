@@ -1,4 +1,4 @@
-# Cyberplátano RD - WRO 2025 Panama 
+# CyberPlátano RD - WRO 2025 Panama 
 
 > Dominican Republic • Future Engineers • 2025
 
