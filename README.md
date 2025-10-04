@@ -169,6 +169,38 @@ This is the **second version of the CyberplátanoRD robot** for WRO 2025.
 
 ### Open challenge - Preview
 
+Below is a short preview of the control logic used in our Open Challenge robot.  
+The full version is available here 👉 [`src/open_challengev2.ino`](./src/open_challengev2.ino)
+
+```cpp
+#include <Wire.h>
+#include <MPU9250_asukiaaa.h>
+#include <ESP32Servo.h>
+
+MPU9250_asukiaaa mySensor;
+Servo servoMotor;
+
+// Basic yaw control variables
+float yaw = 0.0;
+float gyroZ_offset = 0.0;
+
+void setup() {
+  Serial.begin(115200);
+  Wire.begin();
+  mySensor.setWire(&Wire);
+  mySensor.beginGyro();
+  servoMotor.attach(18);
+}
+
+void loop() {
+  mySensor.gyroUpdate();
+  yaw += (mySensor.gyroZ() - gyroZ_offset) * 0.01;
+  servoMotor.write(map((int)yaw % 360, 0, 360, 50, 130));
+}
+
+
+---
+
 
 ### Obstacle challenge
 
