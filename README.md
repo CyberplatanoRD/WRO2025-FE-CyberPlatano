@@ -211,10 +211,11 @@ void loop() {
 ## Schematics
 
 ### Diagram - Preview
+[View full PDF](./schemes/WRO_Generalesquematic.pdf)
 
 ![Schematic Preview](./images/WRO_Generalesquematic.png)
 
-[View full PDF](./schemes/WRO_Generalesquematic.pdf)
+
 
 
 
