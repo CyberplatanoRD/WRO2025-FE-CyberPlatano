@@ -1,67 +1,71 @@
 #include <Wire.h>
-#include <MPU9250_asukiaaa.h>
-#include <ESP32Servo.h> // Agregado para controlar servo
+#include <ESP32Servo.h>
 
-MPU9250_asukiaaa mySensor;
-Servo servoMotor;       
+// ---------- VARIABLES NUEVAS PARA CONTROL DE EXTREMOS ----------
+/*
+unsigned long tiempoEnExtremo = 0;
+bool enExtremo = false;
+const unsigned long limiteExtremo = 200; // ms en extremo
 
-// Solo variables necesarias para Yaw, gyroZ_raw y gyroZ_f
-float yaw = 0.0;
-float gyroZ_raw = 0.0;
-float gyroZ_f = 0.0;      // gyroZ filtrado
-float gyroZ_offset = 0.0; // offset calculado en calibración
+unsigned long tiempoEnCentro = 0;
+bool enCentro = false;
+const unsigned long duracionCentro = 180; // ms en 90°
 
-// Tiempo
-unsigned long prevTime = 0;
-float dt = 0.0; // segundos
+int ultimoServoAngle = 90; // guarda el último ángulo aplicado
+*/
 
-// Parámetros
-const int CAL_SAMPLES = 200;     // lecturas para calibrar gyro Z
-const float GYRO_ALPHA = 0.92;   // EMA alpha
-
-//Variables paro de motor
-int giroCount = 0;                 // Contador de giros realizados
-const int maxGiros = 12;           // Número de giros hasta detener el vehículo
-bool vehiculoDetenido = false;     // Bandera para saber si ya se detuvo
-
-unsigned long stopMotorTime = 0;       // momento en que se debe detener el motor
-const unsigned long stopDelay = 1000;  // 1 segundo en ms
-bool pararMotorPendiente = false;      // indica que se debe parar después de delay
-
-// First corner detection
-bool firstCornerDetected = false;
-bool firstCornerRight = false; // true if first corner was right, false if left
+// ---------- PINES ----------
+const int trigLeft  = 23;
+const int echoLeft  = 25;
+const int trigRight = 26;
+const int echoRight = 27;
 
 
 
-// ===== Pin del servo =====
 const int servoPin = 18;
 
-const int in1 = 32;
-const int in2 = 33;
+const int IN1 = 32; // Motor driver input 1
+const int IN2 = 33; // Motor driver input 2
 
-// === Pines ultrasónicos ===
-const int trigLeft  = 14;
-const int echoLeft  = 27;
-const int trigRight = 26;
-const int echoRight = 25;
+// ---------- PARÁMETROS ----------
+const unsigned long usIntervalMs = 100UL; // intervalo de lectura ultras (ms)
+const int maxDistance = 80;                // máximo considerado por sensor (cm)
+const int diffMax = maxDistance;           // máximo (absoluto) para la diferencia
+const int servoCenter = 90;
+const int servoLeft   = 45;   // ángulo mínimo
+const int servoRight  = 135;  // ángulo máximo
 
-const unsigned long usIntervalMs = 100UL; 
+// ---------- VARIABLES ----------
+Servo myServo;
+unsigned long lastUsRead = 0;
+
 int ultrasonicoizquierda = 0;
 int ultrasonicoderecha = 0;
+int calculodistancia = 0; // izquierda - derecha
 
-unsigned long lastUsRead = 0; 
+// ---------- PROTOTIPOS ----------
+void motorAvanzar();
+void motorStop();
+void motorReversa();
+int leerDistanciaUltrasonico(int trigPin, int echoPin);
 
-// === Banderas para controlar ajustes de yaw ===
-bool ajustadoDerecha = false;
-bool ajustadoIzquierda = false;
+// ---------- FUNCIONES MOTOR ----------
+void motorAvanzar() {
+  digitalWrite(IN1, LOW);
+  digitalWrite(IN2, HIGH);
+}
 
-// ===== NUEVAS VARIABLES GLOBALES =====
-unsigned long lastYawAdjustTime = 0;        // momento del último ajuste
-const unsigned long yawBlockTime = 1000;    // tiempo de bloqueo en ms (1 segundo)
+void motorStop() {
+  digitalWrite(IN1, LOW);
+  digitalWrite(IN2, LOW);
+}
 
+void motorReversa() {
+  digitalWrite(IN1, HIGH);
+  digitalWrite(IN2, LOW);
+}
 
-// --- Función para leer distancia ---
+// ---------- FUNCION ULTRASONICO ----------
 int leerDistanciaUltrasonico(int trigPin, int echoPin) {
   digitalWrite(trigPin, LOW);
   delayMicroseconds(2);
@@ -72,7 +76,7 @@ int leerDistanciaUltrasonico(int trigPin, int echoPin) {
   unsigned long duracion = pulseIn(echoPin, HIGH, 30000UL);
 
   if (duracion == 0) {
-    return -1; // -1 = sin eco
+    return 0; // sin eco → devolvemos 0
   }
 
   float distanciaF = (duracion * 0.0343f) / 2.0f;
@@ -82,193 +86,84 @@ int leerDistanciaUltrasonico(int trigPin, int echoPin) {
   return distancia;
 }
 
-void motorAvanzar() {
-  digitalWrite(in1, HIGH);
-  digitalWrite(in2, LOW);
-}
-
-void motorDetener() {
-  digitalWrite(in1, LOW);
-  digitalWrite(in2, LOW);
-  vehiculoDetenido = true;
-}
-
-
+// ---------- SETUP ----------
 void setup() {
   Serial.begin(115200);
-  Wire.begin();
+  delay(10);
 
-  mySensor.setWire(&Wire);
-  mySensor.beginGyro();
+  pinMode(IN1, OUTPUT);
+  pinMode(IN2, OUTPUT);
+  motorStop();
 
-  // ===== Inicializar servo =====
-  servoMotor.attach(servoPin);
-  servoMotor.write(90); // posición inicial
-
-  // ===== Inicializar motor =====
-  pinMode(in1, OUTPUT);
-  pinMode(in2, OUTPUT);
-
-  // Pines ultrasónicos
   pinMode(trigLeft, OUTPUT);
   pinMode(echoLeft, INPUT);
   pinMode(trigRight, OUTPUT);
   pinMode(echoRight, INPUT);
+  digitalWrite(trigLeft, LOW);
+  digitalWrite(trigRight, LOW);
 
-  delay(100);
+  myServo.attach(servoPin);
+  myServo.write(servoCenter);
+  delay(200);
 
-  // Calibración simple del gyro Z
-  Serial.println("Calibrando gyro Z: mantener sensor quieto...");
-  double gz_sum = 0.0;
-  for (int i = 0; i < CAL_SAMPLES; i++) {
-    mySensor.gyroUpdate();
-    gz_sum += mySensor.gyroZ();
-    delay(5);
-  }
-  gyroZ_offset = gz_sum / CAL_SAMPLES;
-  Serial.print("Offset gyroZ: "); Serial.println(gyroZ_offset, 6);
-
-  // Espera después de calibración para estabilizar
-  delay(2000);
-
-  // Arranca motor después de calibración
-  motorAvanzar();
-
-  prevTime = micros();
+  Serial.println("Setup listo. Empezando lecturas (millis non-blocking).");
 }
 
+// ---------- LOOP ----------
 void loop() {
-  // dt real
-  unsigned long currTime = micros();
-  dt = (currTime - prevTime) / 1000000.0;
-  if (dt <= 0.0) dt = 0.000001;
-  prevTime = currTime;
+  unsigned long now = millis();
 
-  // actualizar giroscopio
-  mySensor.gyroUpdate();
+  if (now - lastUsRead >= usIntervalMs) {
+    lastUsRead = now;
 
-  // leer gyroZ y quitar offset
-  gyroZ_raw = mySensor.gyroZ() - gyroZ_offset; 
+    ultrasonicoizquierda = leerDistanciaUltrasonico(trigLeft, echoLeft);
+    ultrasonicoderecha  = leerDistanciaUltrasonico(trigRight, echoRight);
 
-  // EMA para suavizar (gyroZ_f)
-  static bool first = true;
-  if (first) {
-    gyroZ_f = gyroZ_raw;
-    first = false;
-  } else {
-    gyroZ_f = GYRO_ALPHA * gyroZ_f + (1.0 - GYRO_ALPHA) * gyroZ_raw;
-  }
+    calculodistancia = ultrasonicoizquierda - ultrasonicoderecha;
 
-  // integrar yaw
-  yaw += gyroZ_f * dt; 
+    if (calculodistancia > diffMax) calculodistancia = diffMax;
+    if (calculodistancia < -diffMax) calculodistancia = -diffMax;
 
-  // ---- Ajuste de referencia inicial ----
-  static bool firstYaw = true;
-  if (firstYaw) {
-    yaw = 90.0;   
-    firstYaw = false;
-  }
+    int servoAngle = map(calculodistancia, -diffMax, diffMax, servoLeft, servoRight);
 
-  // Normalizar yaw [0, 360)
-  if (yaw >= 360) yaw -= 360;
-  if (yaw < 0) yaw += 360;
-
-  // === Redondear yaw a enteros ===
-  int yawInt = round(yaw);
-
-  // ===== Mapeo de yaw a servo =====
-  int servoAngle = map(yawInt, 45, 135, 50, 130);
-  servoAngle = constrain(servoAngle, 50, 130);
-  servoMotor.write(servoAngle);
-
-  // ===== Leer ultrasónicos cada cierto intervalo =====
- // ===== Leer ultrasónicos cada cierto intervalo =====
-if (millis() - lastUsRead >= usIntervalMs) {
-    lastUsRead = millis();
-
-    // Read sensors
-    if (!firstCornerDetected || !firstCornerRight) { // Read left only if first corner is not right
-        ultrasonicoizquierda = leerDistanciaUltrasonico(trigLeft, echoLeft);
-    }
-    if (!firstCornerDetected || firstCornerRight) { // Read right only if first corner is not left
-        ultrasonicoderecha   = leerDistanciaUltrasonico(trigRight, echoRight);
-    }
-
-    unsigned long now = millis();
-
-    // ===== Lógica de ajuste con bloqueo temporal y contador de giros =====
-    if (!vehiculoDetenido && (now - lastYawAdjustTime >= yawBlockTime)) {
-
-        // --- Izquierda ---
-        if (!firstCornerDetected || !firstCornerRight) {  // Only if allowed
-            if (ultrasonicoizquierda > 150) {
-                if (!ajustadoIzquierda) {
-                    yaw += 89; 
-                    ajustadoIzquierda = true;
-                    lastYawAdjustTime = now;
-                    giroCount++;
-                    Serial.print("\t>>> Ajuste -90° (Izquierda)");
-
-                    // First corner detection
-                    if (!firstCornerDetected) {
-                        firstCornerDetected = true;
-                        firstCornerRight = false; // first was left
-                    }
-
-                    // Motor stop logic
-                    if (giroCount >= maxGiros && !pararMotorPendiente) {
-                        stopMotorTime = now;
-                        pararMotorPendiente = true;
-                    }
-                }
-            } else if (ultrasonicoizquierda == -1) {
-                Serial.print("\t(Sin eco izquierda)");
-            } else {
-                ajustadoIzquierda = false; 
-            }
+    // ---- CONTROL DE TIEMPO EN EXTREMOS ----
+    /*
+    if (servoAngle == servoLeft || servoAngle == servoRight) {
+      if (!enExtremo) {
+        tiempoEnExtremo = now;
+        enExtremo = true;
+      } else {
+        if (now - tiempoEnExtremo >= limiteExtremo) {
+          servoAngle = servoCenter; // forzar regreso a 90°
+          enExtremo = false;
+          tiempoEnCentro = now; // empezar contador de 200 ms en 90°
+          enCentro = true;
         }
-
-        // --- Derecha ---
-        if (!firstCornerDetected || firstCornerRight) { // Only if allowed
-            if (ultrasonicoderecha > 150) {
-                if (!ajustadoDerecha) {
-                    yaw -= 89; 
-                    ajustadoDerecha = true;
-                    lastYawAdjustTime = now;
-                    giroCount++;
-                    Serial.print("\t>>> Ajuste +90° (Derecha)");
-
-                    // First corner detection
-                    if (!firstCornerDetected) {
-                        firstCornerDetected = true;
-                        firstCornerRight = true; // first was right
-                    }
-
-                    // Motor stop logic
-                    if (giroCount >= maxGiros && !pararMotorPendiente) {
-                        stopMotorTime = now;
-                        pararMotorPendiente = true;
-                    }
-                }
-            } else if (ultrasonicoderecha == -1) {
-                Serial.print("\t(Sin eco derecha)");
-            } else {
-                ajustadoDerecha = false; 
-            }
-        }
+      }
+    } else {
+      enExtremo = false;
     }
 
-    // Motor stop after delay
-    if (pararMotorPendiente && (millis() - stopMotorTime >= stopDelay)) {
-        motorDetener();
-        pararMotorPendiente = false;
-        Serial.println(">>> Motor detenido después de 1 segundo");
+    // ---- CONTROL DE DURACION EN CENTRO ----
+    if (enCentro) {
+      if (now - tiempoEnCentro < duracionCentro) {
+        servoAngle = servoCenter; // mantener 90°
+      } else {
+        enCentro = false; // se acabó el tiempo en 90°, seguir normal
+      }
     }
 
-    Serial.println();
-}
+    ultimoServoAngle = servoAngle;
+    */
+    
 
+    myServo.write(servoAngle);
 
-  // Imprimir info de IMU
-  Serial.print("Yaw: "); Serial.print(yawInt);
+    motorAvanzar();
+
+    Serial.print("Izq: "); Serial.print(ultrasonicoizquierda);
+    Serial.print(" cm | Der: "); Serial.print(ultrasonicoderecha);
+    Serial.print(" cm | Diff: "); Serial.print(calculodistancia);
+    Serial.print(" -> Servo: "); Serial.println(servoAngle);
+  }
 }
