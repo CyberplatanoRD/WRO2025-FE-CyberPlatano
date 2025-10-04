@@ -128,7 +128,7 @@ This dual-battery system separates high-load electronics from control circuits, 
   - Keeps the robot driving in a straight line.  
   - Helps smooth out turns.  
 - **Connection:** Communicates with the ESP32 using I2C (SDA & SCL).  
-- **Power:** 3.3V (⚠️ important: cannot be connected to 5V).  
+- **Power:** 3.3V (Important: cannot be connected to 5V).  
 
 <img width="500" height="500" alt="MPU-9250 Accelerometer Gyroscope Magnetometer Module Axis Orientation" src="https://protosupplies.com/wp-content/uploads/2019/03/MPU-9250-Accel-Gyro-and-Mag-Module-Axis-Orientation.jpg" />
 
@@ -160,7 +160,7 @@ This folder represents the **reference design** for manufacturing and testing.
 ![Isometric View](./images/Isometric.jpeg)
 
 This is the **second version of the CyberPlátanoRD robot** for WRO 2025.  
-🚧 The final version is still under construction and will include several upgrades. 🚧
+The final version is still under construction and will include several upgrades.
 
 
 ---
@@ -172,7 +172,7 @@ This is the **second version of the CyberPlátanoRD robot** for WRO 2025.
 
 Below is a short preview of the control logic used in our Open Challenge robot.  
 
-The full version is available here 👉 [`src/open_challengev2.ino`](./src/open_challengev2.ino)
+The full version is available here  [`src/open_challengev2.ino`](./src/open_challengev2.ino)
 
 ```cpp
 #include <Wire.h>
