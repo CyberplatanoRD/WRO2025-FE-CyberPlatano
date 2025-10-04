@@ -159,6 +159,10 @@ This folder represents the **reference design** for manufacturing and testing.
  
 ![Isometric View](./images/Isometric.jpeg)
 
+This is the **second version of the CyberplátanoRD robot** for WRO 2025.  
+The final version is still under construction and will include several upgrades.
+
+
 ---
 
 ## Software
