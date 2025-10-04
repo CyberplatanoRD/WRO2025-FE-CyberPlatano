@@ -211,13 +211,13 @@ void loop() {
 ## Schematics
 
 ### Diagram - Preview
+[View full PDF](./schemes/WRO_Generalsquematic.pdf)
 
 ![Schematic Preview](./schemes/Generalsquematicpreview.png)
 
-[View full PDF](./schemes/WRO_Generalsquematic.pdf)
-
-
 ### PCB layout - Preview
+[View full PCB Layout](./schemes/WRO_Generalpcblayout.pdf)
+
 
 ---
 
