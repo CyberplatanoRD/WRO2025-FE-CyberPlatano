@@ -212,7 +212,7 @@ void loop() {
 
 ### Diagram - Preview
 
-![Schematic Preview](./schemes/WRO_Generalesquematic.png)
+![Schematic Preview](./images/WRO_Generalesquematic.png)
 
 [View full PDF](./schemes/WRO_Generalesquematic.pdf)
 
