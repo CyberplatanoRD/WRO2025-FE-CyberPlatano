@@ -170,6 +170,7 @@ This is the **second version of the CyberplátanoRD robot** for WRO 2025.
 ### Open challenge - Preview
 
 Below is a short preview of the control logic used in our Open Challenge robot.  
+
 The full version is available here 👉 [`src/open_challengev2.ino`](./src/open_challengev2.ino)
 
 ```cpp
@@ -197,7 +198,6 @@ void loop() {
   yaw += (mySensor.gyroZ() - gyroZ_offset) * 0.01;
   servoMotor.write(map((int)yaw % 360, 0, 360, 50, 130));
 }
-
 
 ---
 
