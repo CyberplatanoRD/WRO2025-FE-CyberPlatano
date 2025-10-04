@@ -17,7 +17,7 @@ This folder contains the 3D models and related files for the CyberplátanoRD rob
   - Webots (for simulation)
 - Make sure to check file versions; some parts may have multiple iterations.
 
-## Usage
+## How to use 
 
 1. Open the CAD or simulation software of your choice.
 2. Import the 3D files from this folder.
