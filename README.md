@@ -224,6 +224,11 @@ void loop() {
 ---
 
 ## Testing
+The **"fogueos"** are an internal dynamic organized by the teams from PUCMM (Pontificia Universidad Católica Madre y Maestra), where participants from WRO Dominican Republic take part in friendly mini competitions.
+
+The main goal is to test the robots under competition-like conditions, evaluate team performance, and share knowledge and improvements among teams.
+
+Throughout this process, our team participated in several fogueos to enhance the robot’s precision, stability, and overall performance:
 
 ### "1st fogueo"
 ### "2nd fogueo"
