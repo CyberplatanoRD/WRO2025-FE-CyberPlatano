@@ -1,14 +1,15 @@
-# CyberPlátano RD - WRO 2025 Panamá 
+<center><h1> CyberPlatano 2025 </center>
 
 > Dominican Republic • Future Engineers • 2025
 
 ---
+[![Youtube](https://img.shields.io/badge/Youtube-%23FF0000.svg?style=for-the-badge&logo=Youtube&logoColor=white)](https://www.youtube.com/@Ivan-lv9rn)
 
 ## Engineering Documentation
-This repository contains all files, codes, and designs used by **CyberPlátano RD** for the **Future Engineers category - WRO 2025 - Panamá**.  We document the development of our robot, from mechanical and electronic components to programming and simulation.
+This repository contains all files, codes, and designs used by **CyberPlátano RD** for the **Future Engineers category - WRO 2025, Open Championship - Panamá**.  We document the development of our robot, from mechanical and electronic components to programming and simulation.
 
 ---
-## Index
+## Table of Contents
 - 1. [ Introduction](#introduction)  
 - 2. [ Repository Overview](#repository-overview)
 - 3. [ Team Members](#team-members)  
@@ -43,11 +44,13 @@ By sharing our process through this repository, we aim to provide transparency i
 
 
 ##  Repository Overview
-* `extras` - Other essential files
-* `images` - Phots and videos 
-* `models` - 3D CAD files
-* `schemes` - Electrical schematics
-* `src` - Main and other programs to run/control software
+* `models` - Files for models used by 3D printers to produce the vehicle elements.
+* `other` - Other essential files 
+* `schemes` - Schematic diagrams of the electromechanical components used in the vehicle and how they connect to each other.
+* `src` - contains code of control software for all components which were programmed to participate in the competition
+* `t-photos` - 2 photos of the team
+* `v-photos` - contains 6 photos of the vehicle (from every side, from top and bottom).
+
 
 ##  Team Members
 * Ivan Saint-Hilaire, ivanrma0702@gmail.com
