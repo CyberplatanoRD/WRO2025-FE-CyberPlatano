@@ -1,4 +1,4 @@
-<center><h1> CyberPlatano 2025 </center>
+<center><h1> CyberPlátano RD 2025 </center>
 
 > Dominican Republic • Future Engineers • 2025
 
@@ -6,7 +6,7 @@
 [![Youtube](https://img.shields.io/badge/Youtube-%23FF0000.svg?style=for-the-badge&logo=Youtube&logoColor=white)](https://www.youtube.com/@Ivan-lv9rn)
 
 ## Engineering Documentation
-This repository contains all files, codes, and designs used by **CyberPlátano RD** for the **Future Engineers category - WRO 2025, Open Championship - Panamá**.  We document the development of our robot, from mechanical and electronic components to programming and simulation.
+This repository contains all documentation for the **CyberPlátano RD** team's robot for the **Future Engineers category - WRO 2025, Open Championship - Panamá**.  We document the development of our robot, from mechanical and electronic components to programming and simulation.
 
 ---
 ## Table of Contents
