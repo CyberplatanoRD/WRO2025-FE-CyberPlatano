@@ -10,10 +10,12 @@ This repository contains all documentation for the **CyberPlátano RD** team's r
 
 ---
 ## Table of Contents
-- 1. [ Introduction](#introduction)  
-- 2. [ Repository Overview](#repository-overview)
-- 3. [ Team Members](#team-members)  
-- 4. [ Hardware](models/)
+* [Introduction](#introduction)  
+* [Repository Overview](#repository-overview)
+* [Team Members](#team-members)  
+* [The Robot](#robot-images)  
+* [Performance Video](#video)  
+* [ Hardware](models/)
       - [Materials List](#materials-list)
       - [Chasis & Mobility](#chassis-&-mobility)
       - [Motors & Drivers](#motors-&-drivers)
