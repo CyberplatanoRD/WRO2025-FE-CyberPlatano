@@ -12,9 +12,19 @@
 </p>
 
 ## Engineering Documentation
-This repository contains all documentation for the **CyberPlátano RD** team's robot for the **Future Engineers category - World Robot Olympiad 2025**.  We document the development of our robot, from mechanical and electronic components to programming and simulation.
+This repository contains all documentation for the **CyberPlátanoRD** team's robot for the **Future Engineers category - World Robot Olympiad 2025**.  We document the development of our robot, from mechanical and electronic components to programming and simulation.
 
 ---
+## Table of Contents
+* [Introduction](#introduction)  
+* [Repository Overview](#repository-overview)
+* [About Us](#about-us)  
+* [Mobility Management](#models)  
+* [Power and Sense Management](#schemes)  
+* [Obstacle/Open Managment](#src)
+
+---------------------
+
 ##  Repository Overview
 `models` - Files for models used by 3D printers to produce the vehicle elements.
 
@@ -27,34 +37,6 @@ This repository contains all documentation for the **CyberPlátano RD** team's r
 `t-photos` - 2 photos of the team.
 
 `v-photos` - contains 6 photos of the vehicle (from every side, from top and bottom).
-
-## Table of Contents
-* [Introduction](#introduction)  
-* [Repository Overview](#repository-overview)
-* [Team Members](#team-members)  
-* [The Robot](#robot-images)  
-* [Performance Video](#video)  
-* [ Hardware](models/)
-    - [Materials List](#materials-list)
-    - [Chasis & Mobility](#chassis-&-mobility)
-    - [Motors & Drivers](#motors-&-drivers)
-    - [Power & Wiring](#power-&-wiring)
-    - [Sensors](#sensors)
-* [3D Design](models/)
-    - [Assembly](#assembly)
-    - [Final Robot](#final-robot)
-* [ Software](src/)
-    - [Open challenge](#open-challenge)
-    - [Obstacle challenge](#obstacle-challenge)
-* [ Schematics](schemes/) 
-    - [PCB layout](#pcb-layout)
-    - [Diagram](#diagram)
-* [ Testing](extras/)
-    - ["1st fogueo"](#"1st-fogueo")
-    - ["2nd fogueo"](#"2nd-fogueo")
-    - ["3rd fogueo"](#"3rd-fogueo")
-    - ["4th fogueo"](#"4th-fogueo")
-* [ Instructions](extras/)
 
 ##  Introduction
 This repository documents the journey of Cyberplátano RD, a team representing the Dominican Republic in the World Robot Olympiad (WRO) 2025 – Future Engineers Category, to be held in Singapore.
