@@ -1,12 +1,12 @@
 <center><h1> CyberPlátanoRD — WRO</center>
 
-                      (logo)
+(logo)
                       
 > Pontificia Universidad Católica Madre y Maestra (PUCMM), Dominican Republic • Future Engineers • 2025
 
 ---
 <p align="center">
-  [![Youtube](https://img.shields.io/badge/Youtube-%23FF0000.svg?style=for-the-badge&logo=Youtube&logoColor=white)](https://www.youtube.com/@Ivan-lv9rn)
+[![Youtube](https://img.shields.io/badge/Youtube-%23FF0000.svg?style=for-the-badge&logo=Youtube&logoColor=white)](https://www.youtube.com/@Ivan-lv9rn)
 
 ## Engineering Documentation
 This repository contains all documentation for the **CyberPlátano RD** team's robot for the **Future Engineers category - World Robot Olympiad 2025**.  We document the development of our robot, from mechanical and electronic components to programming and simulation.
@@ -14,10 +14,15 @@ This repository contains all documentation for the **CyberPlátano RD** team's r
 ---
 ##  Repository Overview
 `models` - Files for models used by 3D printers to produce the vehicle elements.
-`other` - Other essential files 
+
+`other` - Other essential files.
+
 `schemes` - Schematic diagrams of the electromechanical components used in the vehicle and how they connect to each other.
-`src` - contains code of control software for all components which were programmed to participate in the competition
-`t-photos` - 2 photos of the team
+
+`src` - contains code of control software for all components which were programmed to participate in the competition.
+
+`t-photos` - 2 photos of the team.
+
 `v-photos` - contains 6 photos of the vehicle (from every side, from top and bottom).
 
 ## Table of Contents
