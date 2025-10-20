@@ -1,14 +1,25 @@
-<center><h1> CyberPlátano RD 2025 </center>
+<center><h1> CyberPlátanoRD — WRO</center>
 
-> Dominican Republic • Future Engineers • 2025
+                      (logo)
+                      
+> Pontificia Universidad Católica Madre y Maestra (PUCMM), Dominican Republic • Future Engineers • 2025
 
 ---
-[![Youtube](https://img.shields.io/badge/Youtube-%23FF0000.svg?style=for-the-badge&logo=Youtube&logoColor=white)](https://www.youtube.com/@Ivan-lv9rn)
+<p align="center">
+  [![Youtube](https://img.shields.io/badge/Youtube-%23FF0000.svg?style=for-the-badge&logo=Youtube&logoColor=white)](https://www.youtube.com/@Ivan-lv9rn)
 
 ## Engineering Documentation
 This repository contains all documentation for the **CyberPlátano RD** team's robot for the **Future Engineers category - World Robot Olympiad 2025**.  We document the development of our robot, from mechanical and electronic components to programming and simulation.
 
 ---
+##  Repository Overview
+`models` - Files for models used by 3D printers to produce the vehicle elements.
+`other` - Other essential files 
+`schemes` - Schematic diagrams of the electromechanical components used in the vehicle and how they connect to each other.
+`src` - contains code of control software for all components which were programmed to participate in the competition
+`t-photos` - 2 photos of the team
+`v-photos` - contains 6 photos of the vehicle (from every side, from top and bottom).
+
 ## Table of Contents
 * [Introduction](#introduction)  
 * [Repository Overview](#repository-overview)
@@ -44,14 +55,6 @@ Our goal is to design, build, and program an autonomous robot car capable of com
 
 By sharing our process through this repository, we aim to provide transparency in our work, create a detailed record of our engineering decisions, and contribute to the global robotics community. Every step, from materials and schematics to testing and results, is documented here.
 
-
-##  Repository Overview
-* `models` - Files for models used by 3D printers to produce the vehicle elements.
-* `other` - Other essential files 
-* `schemes` - Schematic diagrams of the electromechanical components used in the vehicle and how they connect to each other.
-* `src` - contains code of control software for all components which were programmed to participate in the competition
-* `t-photos` - 2 photos of the team
-* `v-photos` - contains 6 photos of the vehicle (from every side, from top and bottom).
 
 
 ##  Team Members
