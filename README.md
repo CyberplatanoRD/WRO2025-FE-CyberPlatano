@@ -6,7 +6,10 @@
 
 ---
 <p align="center">
-[![Youtube](https://img.shields.io/badge/Youtube-%23FF0000.svg?style=for-the-badge&logo=Youtube&logoColor=white)](https://www.youtube.com/@Ivan-lv9rn)
+  <a href="https://www.youtube.com/@Ivan-lv9rn">
+    <img src="https://img.shields.io/badge/Youtube-%23FF0000.svg?style=for-the-badge&logo=Youtube&logoColor=white" alt="YouTube">
+  </a>
+</p>
 
 ## Engineering Documentation
 This repository contains all documentation for the **CyberPlátano RD** team's robot for the **Future Engineers category - World Robot Olympiad 2025**.  We document the development of our robot, from mechanical and electronic components to programming and simulation.
