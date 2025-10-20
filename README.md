@@ -6,7 +6,7 @@
 [![Youtube](https://img.shields.io/badge/Youtube-%23FF0000.svg?style=for-the-badge&logo=Youtube&logoColor=white)](https://www.youtube.com/@Ivan-lv9rn)
 
 ## Engineering Documentation
-This repository contains all documentation for the **CyberPlátano RD** team's robot for the **Future Engineers category - WRO 2025, Open Championship - Panamá**.  We document the development of our robot, from mechanical and electronic components to programming and simulation.
+This repository contains all documentation for the **CyberPlátano RD** team's robot for the **Future Engineers category - World Robot Olympiad 2025**.  We document the development of our robot, from mechanical and electronic components to programming and simulation.
 
 ---
 ## Table of Contents
@@ -38,7 +38,7 @@ This repository contains all documentation for the **CyberPlátano RD** team's r
 * [ Instructions](extras/)
 
 ##  Introduction
-This repository documents the journey of Cyberplátano RD, a team representing the Dominican Republic in the World Robot Olympiad (WRO) 2025 – Future Engineers Category, to be held in Panama.
+This repository documents the journey of Cyberplátano RD, a team representing the Dominican Republic in the World Robot Olympiad (WRO) 2025 – Future Engineers Category, to be held in Singapore.
 
 Our goal is to design, build, and program an autonomous robot car capable of completing the competition challenges: the Open Challenge and the Obstacle Challenge. The project integrates mechanical design, electronics, and software, combining skills from 3D printing, circuit design, and programming in C++ and Python.
 
