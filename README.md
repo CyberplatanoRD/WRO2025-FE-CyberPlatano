@@ -1,19 +1,21 @@
-<center><h1>CyberPlátanoRD — WRO</h1></center>
+<h1 align="center">CyberPlátanoRD — WRO</h1>
 
 <p align="center">
   <img src="t-photos/Cyberplatano-logo.jpg" alt="CyberPlátano Logo">
 </p>
 
-> • Pontificia Universidad Católica Madre y Maestra (PUCMM), Dominican Republic • Future Engineers • 2025
+<p align="center">
+  > • Pontificia Universidad Católica Madre y Maestra (PUCMM), Dominican Republic • Future Engineers • 2025
+</p>
 
 ---
 
 <p align="center">
-  <a href="https://www.youtube.com/@CyberPlatanoWRO" target="_blank">
-    <img src="https://img.shields.io/badge/Youtube-%23FF0000.svg?style=for-the-badge&logo=Youtube&logoColor=white" alt="YouTube" style="border:0;">
+  <a href="https://www.youtube.com/@CyberPlatanoWRO">
+    <img src="https://img.shields.io/badge/Youtube-%23FF0000.svg?style=for-the-badge&logo=Youtube&logoColor=white" alt="YouTube">
   </a>
-  <a href="https://www.instagram.com/pucmm?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="Instagram" style="border:0;">
+  <a href="https://www.instagram.com/pucmm">
+    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="Instagram">
   </a>
 </p>
 
