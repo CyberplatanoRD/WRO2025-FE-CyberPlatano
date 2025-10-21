@@ -1,6 +1,6 @@
 <center><h1> CyberPlátanoRD — WRO</center>
 
-![CyberPlátano Logo](t-photos/Cyberplatano-logo.jpg)
+![CyberPlátano Logo](t-photos/t-photos/Cyberplatano-logo.jpg)
 
 > • Pontificia Universidad Católica Madre y Maestra (PUCMM), Dominican Republic • Future Engineers • 2025
 
