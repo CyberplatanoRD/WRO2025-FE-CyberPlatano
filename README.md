@@ -1,13 +1,14 @@
 <center><h1> CyberPlátanoRD — WRO</center>
-
-(logo)
                       
-> Pontificia Universidad Católica Madre y Maestra (PUCMM), Dominican Republic • Future Engineers • 2025
+> • Pontificia Universidad Católica Madre y Maestra (PUCMM), Dominican Republic • Future Engineers • 2025
 
 ---
 <p align="center">
   <a href="https://www.youtube.com/@Ivan-lv9rn">
     <img src="https://img.shields.io/badge/Youtube-%23FF0000.svg?style=for-the-badge&logo=Youtube&logoColor=white" alt="YouTube">
+  </a>
+  <a href="https://www.instagram.com/pucmm?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="Instagram">
   </a>
 </p>
 
@@ -15,28 +16,28 @@
 This repository contains all documentation for the **CyberPlátanoRD** team's robot for the **Future Engineers category - World Robot Olympiad 2025**.  We document the development of our robot, from mechanical and electronic components to programming and simulation.
 
 ---
+
+## Repository Overview
+
+| Folder/File | Description |
+|--------------|-------------|
+| `models`     | Files for models used by 3D printers to produce the vehicle elements. |
+| `other`      | Other essential files. |
+| `schemes`    | Schematic diagrams of the electromechanical components used in the vehicle and how they connect to each other. |
+| `src`        | Contains code of control software for all components which were programmed to participate in the competition. |
+| `t-photos`   | Two photos of the team. |
+| `v-photos`   | Contains six photos of the vehicle (from every side, from top and bottom). |
+
+---
+
 ## Table of Contents
 * [Introduction](#introduction)  
-* [Repository Overview](#repository-overview)
-* [About Us](#about-us)  
+* [About Us](#part-1-about-us)
 * [Mobility Management](#models)  
 * [Power and Sense Management](#schemes)  
-* [Obstacle/Open Managment](#src)
+* [Obstacle/Open Management](#src)
 
----------------------
-
-##  Repository Overview
-`models` - Files for models used by 3D printers to produce the vehicle elements.
-
-`other` - Other essential files.
-
-`schemes` - Schematic diagrams of the electromechanical components used in the vehicle and how they connect to each other.
-
-`src` - contains code of control software for all components which were programmed to participate in the competition.
-
-`t-photos` - 2 photos of the team.
-
-`v-photos` - contains 6 photos of the vehicle (from every side, from top and bottom).
+---
 
 ##  Introduction
 This repository documents the journey of Cyberplátano RD, a team representing the Dominican Republic in the World Robot Olympiad (WRO) 2025 – Future Engineers Category, to be held in Singapore.
@@ -45,15 +46,16 @@ Our goal is to design, build, and program an autonomous robot car capable of com
 
 By sharing our process through this repository, we aim to provide transparency in our work, create a detailed record of our engineering decisions, and contribute to the global robotics community. Every step, from materials and schematics to testing and results, is documented here.
 
-
+---
+# About Us 
 
 ##  Team Members
 * Ivan Saint-Hilaire, ivanrma0702@gmail.com
 * Brittany Martinez, martinezp.brtt@gmail.com
 * Maria Ramos, ramosbinetm@gmail.com
 
-## Hardware
-### Materials List
+# Mobility Management
+## Materials List
 | Name | Purpose  | Quantity | Price |
 | ----------- | ----------- | ----------- |  ----------- |
 | Raspberry Pi 5 | Main computer used for high-level processing   |  1  | $98.00    |
