@@ -1,12 +1,12 @@
 <center><h1> CyberPlátanoRD — WRO</center>
 
-![CyberPlátano Logo](t-photos/t-photos/Cyberplatano-logo.jpg)
+![CyberPlátano Logo](t-photos/Cyberplatano-logo.jpg)
 
 > • Pontificia Universidad Católica Madre y Maestra (PUCMM), Dominican Republic • Future Engineers • 2025
 
 ---
 <p align="center">
-  <a href="https://www.youtube.com/@Ivan-lv9rn" style="display:inline-block;margin-right:4px;">
+  <a href="https://www.youtube.com/@CyberPlatanoWRO" style="display:inline-block;margin-right:4px;">
     <img src="https://img.shields.io/badge/Youtube-%23FF0000.svg?style=for-the-badge&logo=Youtube&logoColor=white" alt="YouTube">
   </a>
   <a href="https://www.instagram.com/pucmm?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" style="display:inline-block;">
