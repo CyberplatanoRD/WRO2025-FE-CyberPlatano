@@ -4,9 +4,8 @@
   <img src="t-photos/Cyberplatano-logo.jpg" alt="CyberPlátano Logo">
 </p>
 
-<p align="center">
-  > • Pontificia Universidad Católica Madre y Maestra (PUCMM), Dominican Republic • Future Engineers • 2025
-</p>
+> • Pontificia Universidad Católica Madre y Maestra (PUCMM), Dom. Rep. • Future Engineers • 2025
+
 
 ---
 
