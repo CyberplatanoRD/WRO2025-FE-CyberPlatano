@@ -1,23 +1,25 @@
 <center><h1> CyberPlátanoRD — WRO</center>
-                      
+
+![CyberPlátano logo](t-photos/Cyberplatano-logo.jpg)
+
 > • Pontificia Universidad Católica Madre y Maestra (PUCMM), Dominican Republic • Future Engineers • 2025
 
 ---
 <p align="center">
-  <a href="https://www.youtube.com/@Ivan-lv9rn">
+  <a href="https://www.youtube.com/@Ivan-lv9rn" style="display:inline-block;margin-right:4px;">
     <img src="https://img.shields.io/badge/Youtube-%23FF0000.svg?style=for-the-badge&logo=Youtube&logoColor=white" alt="YouTube">
   </a>
-  <a href="https://www.instagram.com/pucmm?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+  <a href="https://www.instagram.com/pucmm?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" style="display:inline-block;">
     <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="Instagram">
   </a>
 </p>
 
-## Engineering Documentation
+# Engineering Documentation
 This repository contains all documentation for the **CyberPlátanoRD** team's robot for the **Future Engineers category - World Robot Olympiad 2025**.  We document the development of our robot, from mechanical and electronic components to programming and simulation.
 
 ---
 
-## Repository Overview
+# Repository Overview
 
 | Folder/File | Description |
 |--------------|-------------|
@@ -30,7 +32,7 @@ This repository contains all documentation for the **CyberPlátanoRD** team's ro
 
 ---
 
-## Table of Contents
+# Table of Contents
 * [Introduction](#introduction)  
 * [About Us](#part-1-about-us)
 * [Mobility Management](#models)  
@@ -39,17 +41,27 @@ This repository contains all documentation for the **CyberPlátanoRD** team's ro
 
 ---
 
-##  Introduction
-This repository documents the journey of Cyberplátano RD, a team representing the Dominican Republic in the World Robot Olympiad (WRO) 2025 – Future Engineers Category, to be held in Singapore.
+# Introduction
+This repository documents the journey of Cyberplátano RD, a team representing the Dominican Republic in the World Robot Olympiad (WRO) 2025 – Future Engineers Category, to be held in **Singapore**.
 
-Our goal is to design, build, and program an autonomous robot car capable of completing the competition challenges: the Open Challenge and the Obstacle Challenge. The project integrates mechanical design, electronics, and software, combining skills from 3D printing, circuit design, and programming in C++ and Python.
+**Our goal** is to design, build, and program an autonomous robot car capable of completing the competition challenges: the Open Challenge and the Obstacle Challenge. The project integrates mechanical design, electronics, and software, combining skills from 3D printing, circuit design, and programming in C++ and Python.
 
-By sharing our process through this repository, we aim to provide transparency in our work, create a detailed record of our engineering decisions, and contribute to the global robotics community. Every step, from materials and schematics to testing and results, is documented here.
+By sharing our process through this repository, **we aim** to provide transparency in our work, create a detailed record of our engineering decisions, and contribute to the global robotics community. Every step, from materials and schematics to testing and results, is documented here.
+
+## Documentation Video
 
 ---
-# About Us 
+
+# Part 1: About Us
+
+## Our Team 
+We are CyberPlátano, representing the Caribbean, Dominican Republic. Part of the PUCMM Robotics Club and guided by our mentor Álvaro Zapata, we are a group of young future engineers. Our club first competed in WRO 2023 in Panamaá, and this year we continue our journey, bringing innovation, teamwork, and passion to the international stage in Singapore.
+
+---
 
 ##  Team Members
+
+
 * Ivan Saint-Hilaire, ivanrma0702@gmail.com
 * Brittany Martinez, martinezp.brtt@gmail.com
 * Maria Ramos, ramosbinetm@gmail.com
