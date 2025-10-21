@@ -5,11 +5,6 @@
 > • Pontificia Universidad Católica Madre y Maestra (PUCMM), Dominican Republic • Future Engineers • 2025
 
 ---
-<p align="center">
-  <img src="t-photos/Cyberplatano-logo.jpg" alt="CyberPlátano Logo">
-</p>
-
-> • Pontificia Universidad Católica Madre y Maestra (PUCMM), Dom. Rep. • Future Engineers • 2025
 
 <p align="center">
   <a href="https://www.youtube.com/@CyberPlatanoWRO">
@@ -69,7 +64,10 @@ We are CyberPlátano, representing the Caribbean, Dominican Republic. Part of th
 
 ##  Team Members
 
-* Ivan Saint-Hilaire, ivanrma0702@gmail.com
+* ### Ivan Saint-Hilaire - ###
+
+
+
 * Brittany Martinez, martinezp.brtt@gmail.com
 * Maria Ramos, ramosbinetm@gmail.com
 
