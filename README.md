@@ -1,4 +1,4 @@
-<center><h1> CyberPlátanoRD — WRO</center>
+<h1 align="center">CyberPlátanoRD — WRO</h1>
 
 ![CyberPlátano Logo](t-photos/cyberplatanord-logo.jpg)
 
@@ -6,13 +6,21 @@
 
 ---
 <p align="center">
-  <a href="https://www.youtube.com/@CyberPlatanoWRO" style="display:inline-block;margin-right:4px;">
-    <img src="https://img.shields.io/badge/Youtube-%23FF0000.svg?style=for-the-badge&logo=Youtube&logoColor=white" alt="YouTube">
+  <img src="t-photos/Cyberplatano-logo.jpg" alt="CyberPlátano Logo">
+</p>
+
+> • Pontificia Universidad Católica Madre y Maestra (PUCMM), Dom. Rep. • Future Engineers • 2025
+
+<p align="center">
+  <a href="https://www.youtube.com/@CyberPlatanoWRO">
+    <img src="https://img.shields.io/badge/Youtube-%23FF0000.svg?style=for-the-badge&logo=Youtube&logoColor=white" alt="YouTube" style="border:0;">
   </a>
-  <a href="https://www.instagram.com/pucmm?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" style="display:inline-block;">
-    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="Instagram">
+  <a href="https://www.instagram.com/pucmm?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="Instagram" style="border:0;">
   </a>
 </p>
+
+---
 
 # Engineering Documentation
 This repository contains all documentation for the **CyberPlátanoRD** team's robot for the **Future Engineers category - World Robot Olympiad 2025**.  We document the development of our robot, from mechanical and electronic components to programming and simulation.
@@ -60,7 +68,6 @@ We are CyberPlátano, representing the Caribbean, Dominican Republic. Part of th
 ---
 
 ##  Team Members
-
 
 * Ivan Saint-Hilaire, ivanrma0702@gmail.com
 * Brittany Martinez, martinezp.brtt@gmail.com
