@@ -20,7 +20,6 @@
 # Engineering Documentation
 This repository contains all documentation for the **CyberPlátanoRD** team's robot for the **Future Engineers category - World Robot Olympiad 2025**.  We document the development of our robot, from mechanical and electronic components to programming and simulation.
 
----
 
 # Repository Overview
 
@@ -33,14 +32,12 @@ This repository contains all documentation for the **CyberPlátanoRD** team's ro
 | `t-photos`   | Two photos of the team. |
 | `v-photos`   | Contains six photos of the vehicle (from every side, from top and bottom). |
 
----
-
 # Table of Contents
 * [Introduction](#introduction)  
 * [About Us](#part-1-about-us)
-* [Mobility Management](#models)  
-* [Power and Sense Management](#schemes)  
-* [Obstacle/Open Management](#src)
+* [Mobility Management](#part-2-mobility-management)  
+* [Power and Sense Management](#part-3-power-and-sense-management)  
+* [Obstacle/Open Management](#part-4-obstacleopen-management)
 
 ---
 
@@ -58,20 +55,41 @@ By sharing our process through this repository, **we aim** to provide transparen
 # Part 1: About Us
 
 ## Our Team 
-We are CyberPlátano, representing the Caribbean, Dominican Republic. Part of the PUCMM Robotics Club and guided by our mentor Álvaro Zapata, we are a group of young future engineers. Our club first competed in WRO 2023 in Panamaá, and this year we continue our journey, bringing innovation, teamwork, and passion to the international stage in Singapore.
+We are CyberPlátano, representing the Caribbean, Dominican Republic. Part of the PUCMM Robotics Club and guided by our mentor Álvaro Zapata, we are a group of young future engineers. Our club first competed in WRO 2023 in Panamá, and this year we continue our journey, bringing innovation, teamwork, and passion to the international stage in Singapore.
+
+Our team consists of three Mechatronics Engineering students from  "Pontificia Universidad Católica Madre y Maestra (PUCMM)" currently in their third semester. We met during our studies and decided to collaborate as teammates, driven by our shared interest in robotics and innovation. Throughout our academic journey, we have gained valuable experience from our university projects and from the guidance of our professors and peers. This collaboration and learning process have led us to participate together on this international stage.
 
 ---
 
 ##  Team Members
 
-* ### Ivan Saint-Hilaire - ###
+#### 1. Ivan Saint-Hilaire - Software / Mechanical Eng. ####
+| Photo | Role |
+|-------|------|
+| <img src="image.png" width="200"> | description |
+
+
+#### 2. Brittany Martinez - Team Coordinator and Document Designer  ####
+| Photo | Role |
+|-------|------|
+| <img src="image.png" width="200"> | description |
+
+#### 3. Maria Liz Ramos  - Electronics Eng. ####
+| Photo | Role |
+|-------|------|
+| <img src="image.png" width="200"> | description |
 
 
 
-* Brittany Martinez, martinezp.brtt@gmail.com
-* Maria Ramos, ramosbinetm@gmail.com
 
-# Mobility Management
+
+
+
+
+
+---
+
+# Part 2: Mobility Management
 ## Materials List
 | Name | Purpose  | Quantity | Price |
 | ----------- | ----------- | ----------- |  ----------- |
@@ -112,8 +130,9 @@ The robot uses a hybrid actuation system that combines DC motors and servos to a
 
 **L298N H-Bridge**	
 
+---
 
-### Power & Wiring
+# Part 3: Power and Sense Management
 Our robot uses **two separate battery packs**, each consisting of two 18650 Li-ion cells, to power different parts of the system and ensure stable operation.
 
 - Battery Pack 1: Connected to a 5 V 3 A UPS. This pack powers the Raspberry Pi 5, providing uninterrupted power supply to handle high-level processing and computer vision tasks. The UPS ensures that the Pi stays powered even if the main battery momentarily drops or during short interruptions, which is critical during competition.
@@ -161,8 +180,6 @@ This dual-battery system separates high-load electronics from control circuits, 
 
 <img width="500" height="500" alt="j5create JVCU100 USB Video Capture Adapter" src="https://info.j5create.com/cdn/shop/products/JVCU100-1-2_2400x.jpg?v=1593027468" />
 
----
-
 ## 3D Design
 > CAD and STL files available in [models/](models/).
 
@@ -179,10 +196,9 @@ This folder represents the **reference design** for manufacturing and testing.
 This is the **second version of the CyberPlátanoRD robot** for WRO 2025.  
 The final version is still under construction and will include several upgrades.
 
-
 ---
 
-## Software
+# Part 4: Obstacle/Open Management
 > CPP and Python codes files available in [src/](src/).
 
 ### Open challenge - Preview
