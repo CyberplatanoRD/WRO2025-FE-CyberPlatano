@@ -103,11 +103,13 @@ Our robot’s chassis has been completely designed and developed from scratch, u
 
 We structured our chassis with three essential parts, each designed to provide both strength and modularity to the overall frame:
 
-**Main Base:** the central foundation that holds the motor driver, batteries, and wiring paths.
+- **Main Base:** the central foundation that supports the main driving axis, ensuring precise alignment, rigidity, and stability for the entire chassis. 
 
-**Back Support**: provides mechanical rigidity and ensures structural stability when handling torque or collisions.
+- **Back Support**: provides mechanical rigidity and structural stability when handling torque or minor impacts. It connects the rear section of the chassis to the upper base and securely holds the drivetrain motor, maintaining alignment under load.
 
-**Standoff & Upper Base**: elevates the ESP32-CAM and sensors, optimizing field of view and cooling while keeping power and logic electronics separated.
+- **Upper Base:** holds the Raspberry Pi 5 and ESP32-CAM circuit, securing them in a stable and elevated position. It also locks the soldered board and supports the ultrasonic sensor mount, ensuring optimal positioning and cable organization.
+
+- **Standoff:** connects the upper base and the main base, maintaining structural spacing and alignment between both layers. It provides rigidity and prevents vibrations from transferring between mechanical and electronic components.
 
 Each element interlocks seamlessly, resulting in a lightweight yet durable frame. Cable management channels were integrated into the design to maintain a clean wiring layout and prevent interference with moving parts. The modular assembly also allows future versions to incorporate sensor mounts or additional mechanical features without redesigning the entire frame.
 
