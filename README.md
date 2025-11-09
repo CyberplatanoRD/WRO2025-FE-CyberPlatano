@@ -126,7 +126,16 @@ All the 3D printable models can be found [here](#models).
 ---
 
 # Part 3: Power and Sense Management
+---
+This report presents the design, development, and integration of the electrical system implemented in the autonomous vehicle built for the WRO Future Engineers 2025 competition.
 
+The main objective of the electrical subsystem was to provide a **reliable architecture for the robot’s power supply, sensing, processing, and actuation, ensuring stability, safety, and compatibility** with the challenge requirements, where the track changes dynamically in each round.
+
+The system is based on an **ESP32 microcontroller**, responsible for managing the **ultrasonic sensors**, the **Creality Nebula Camera** for color recognition, and motor control. Power is supplied using 18650 lithium batteries, step-down regulators, a dual power source, and a custom PCB design to ensure proper power distribution and minimize interference caused by the motors.
+
+Throughout the development process, tests were conducted on continuity, current consumption, sensor calibration, and digital communication validation. The main challenges included stabilizing the Raspberry Pi 5 power supply, mitigating electrical noise from the motors, dealing with the limited number of available pins, and unstable color readings, which led to several iterations in wiring, pin assignment, and signal filtering.
+
+The results demonstrate that the electrical system met the minimum requirements for functional operation, enabling successful integration with the mechanical and control systems. Finally, potential improvements were identified, such as the implementation of encoders, sensor filtering optimization, and PCB refinement for future versions.
 
 # Part 4: Obstacle/Open Management
 > CPP and Python codes files available in [src/](src/).
