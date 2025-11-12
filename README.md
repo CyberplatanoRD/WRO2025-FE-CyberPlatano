@@ -126,17 +126,44 @@ All the 3D printable models can be found [here](#models).
 ## Robot's Steering System 
 ---
 <p align="justify">
-  <figure style="float: right; margin-left: 20px; text-align: center;">
-    <a href="./models/steering/steeringSTL.stl">
-      <img src="./models/steering/Steering-Isometric.png" width="380" style="border-radius: 10px;">
-    </a>
-    <figcaption><a href="./models/steering/steeringSTL.stl"><em>Click here to view 3D model.</em></a></figcaption>
-  </figure>
-
-  Our robot's steering system was designed to provide precise and stable control of forward movement, ensuring the necessary maneuverability across different competition scenarios. We drew inspiration from the <em>Ackermann steering system</em>, a configuration that allows a vehicle's front wheels to turn at different angles, enabling them to trace arcs with different radii during a turn. This prevents slipping and improves stability. The entire steering mechanism was developed and modeled in Fusion 360, prioritizing structural integration, modularity, and ease of maintenance.
+  <img src="./models/steering/Steering-Isometric.png" align="right" width="380" style="margin-left: 20px; border-radius: 10px;">
+  Our robot's steering system was designed to provide precise and stable control of forward movement, ensuring the necessary maneuverability across different competition scenarios. We drew inspiration from <em>Ackermann steering system</em>, a configuration that allows a vehicle's front wheels to turn at different angles, enabling them to trace arcs with different radii during a turn. This prevents slipping and improves stability. The entire steering mechanism was developed and modeled in Fusion 360, prioritizing structural integration, modularity, and ease of maintenance. 
 </p>
 
+[Click here to view 3D model!](../models/steering/steeringSTL.stl)
+
+---
+
 ### Steering System Design
+
+We took inspiration from a steering design previously developed by our coach, as well as several robotic systems found online. Building upon these references, we carried out an iterative improvement process to address issues related to tolerance, rigidity, and assembly accuracy inherent to 3D-printed components.
+
+In our first prototype, the holes were designed with excessive tolerance, causing loose fits that affected the wheel hubs’ precision and stability. This led to misalignment and unwanted wheel play.
+
+Throughout development, we produced **three main iterations** of the wheel hub design:
+
+1. **First version:** It relied heavily on tight fitting between printed parts, making the design highly sensitive to printer tolerance variations. The wheels were not firmly secured and tended to detach during movement.
+2. **Second version:** The fit dependency was reduced, and performance slightly improved; however, the vehicle’s axle and the hub’s axle were designed as separated parts within the same assembly. This made the system mechanically complex and caused lateral play in the wheels. Under repeated stress, the structure eventually fractured.
+3. **Final version:** We decided to fully replace the tire rim with a 3D-printed one, which simplified the wheel-to-chassis connection and increased structural rigidity. We also incorporated design inspiration from other teams and opted to use **two 608ZZ bearings** instead of four, which effectively reduced lateral movement without sacrificing rotational smoothness.
+
+Our final steering design combines rigidity, modularity, and precise control while maintaining the simplicity required for quick maintenance and adjustments during the competition.
+
+The steering system consists of the following components:
+
+| No. | Component | Description | Material / Specs |
+|:---:|:-----------|:-------------|:----------------|
+| 1 | **Under Column** | Lower support structure connecting wheel hubs and servo assembly. | PLA (3D printed), infill 20%, 0.2 mm layer height |
+| 2 | **Upper Column** | Upper link supporting the servo and steering mechanism. | PLA, 20% infill, 0.2 mm |
+| 3 | **StandOff 1 / 2** | Connect upper and lower columns maintaining alignment. | PLA, 20% infill |
+| 4 | **Servo Hitec HS-485B** | Provides steering torque and precision control. | Torque 4.8 kg·cm 6V, 0.16 s/60° |
+| 5 | **Bearings 608ZZ** | Enable smooth wheel rotation with minimal friction. | Ø22 mm × 7 mm |
+| 6 | **Horn / Servo Arm** | Transmits motion from servo to steering link. | ABS (purchased from Amazon) |
+| 7 | **Steering Link (Tie Rod)** | Connects both wheel hubs ensuring synchronized turning. | PLA, 30% infill |
+| 8 | **Wheel Hubs** | Support the wheels and allow rotation through bearings. | PLA, 20% infill |
+| 9 | **Steering Arm** | Intermediate printed lever that connects the servo horn to the steering link, transmitting motion. | PLA, 20% infill |
+
+
+
 
 # Part 3: Power and Sense Management
 ---
