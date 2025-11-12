@@ -125,12 +125,20 @@ All the 3D printable models can be found [here](#models).
 
 ## Robot's Steering System 
 ---
+## 2.2 Steering System
+
 <p align="justify">
-  <img src="./models/steering/Steering-Isometric.png" align="right" width="380" style="margin-left: 20px; border-radius: 10px;">
-  Our robot's steering system was designed to provide precise and stable control of forward movement, ensuring the necessary maneuverability across different competition scenarios. We drew inspiration from the Ackermann steering system, a configuration that allows a vehicle's front wheels to turn at different angles, enabling them to trace arcs with different radii during a turn. This prevents slipping and improves stability. The entire steering mechanism was developed and modeled in Fusion 360, prioritizing structural integration, modularity, and ease of maintenance.
+  <figure style="float: right; margin-left: 20px; text-align: center;">
+    <a href="./models/steering/steeringSTL.stl">
+      <img src="./models/steering/Steering-Isometric.png" width="380" style="border-radius: 10px;">
+    </a>
+    <figcaption><a href="./models/steering/steeringSTL.stl"><em>Click here to view 3D model.</em></a></figcaption>
+  </figure>
+
+  Our robot's steering system was designed to provide precise and stable control of forward movement, ensuring the necessary maneuverability across different competition scenarios. We drew inspiration from the <em>Ackermann steering system</em>, a configuration that allows a vehicle's front wheels to turn at different angles, enabling them to trace arcs with different radii during a turn. This prevents slipping and improves stability. The entire steering mechanism was developed and modeled in Fusion 360, prioritizing structural integration, modularity, and ease of maintenance.
 </p>
 
-###
+### Steering System Design
 
 # Part 3: Power and Sense Management
 ---
