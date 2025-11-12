@@ -130,7 +130,7 @@ All the 3D printable models can be found [here](#models).
   Our robot's steering system was designed to provide precise and stable control of forward movement, ensuring the necessary maneuverability across different competition scenarios. We drew inspiration from <em>Ackermann steering system</em>, a configuration that allows a vehicle's front wheels to turn at different angles, enabling them to trace arcs with different radii during a turn. This prevents slipping and improves stability. The entire steering mechanism was developed and modeled in Fusion 360, prioritizing structural integration, modularity, and ease of maintenance. 
 </p>
 
-[Click here to view 3D model!](../models/steering/steeringSTL.stl)
+[Click here to view 3D model!](models/steering/steeringSTL.stl)
 
 ---
 
