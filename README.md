@@ -162,8 +162,18 @@ The steering system consists of the following components:
 | 8 | **Wheel Hubs** | Support the wheels and allow rotation through bearings. | PLA, 20% infill |
 | 9 | **Steering Arm** | Intermediate printed lever that connects the servo horn to the steering link, transmitting motion. | PLA, 20% infill |
 
+###  Steering Subassembly
 
-
+<table align="center" style="border-collapse: collapse;">
+  <tr>
+    <td style="border: 2px solid #ccc; padding: 6px;">
+      <img src="models/steering/Steering%20Drawing%20png.png" alt="Steering Drawing" width="400"/>
+    </td>
+    <td style="border: 2px solid #ccc; padding: 6px;">
+      <img src="models/steering/Steering-Isometric.png" alt="Steering 3D View" width="420"/>
+    </td>
+  </tr>
+</table>
 
 ### 1. Under Column 
 
