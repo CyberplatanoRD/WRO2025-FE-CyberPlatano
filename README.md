@@ -165,6 +165,10 @@ The steering system consists of the following components:
 
 
 
+### 1. Under Column 
+
+
+
 # Part 3: Power and Sense Management
 ---
 This report presents the design, development, and integration of the electrical system implemented in the autonomous vehicle built for the WRO Future Engineers 2025 competition.
