@@ -125,8 +125,6 @@ All the 3D printable models can be found [here](#models).
 
 ## Robot's Steering System 
 ---
-## 2.2 Steering System
-
 <p align="justify">
   <figure style="float: right; margin-left: 20px; text-align: center;">
     <a href="./models/steering/steeringSTL.stl">
