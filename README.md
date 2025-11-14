@@ -88,11 +88,9 @@ Our team consists of three Mechatronics Engineering students from  "Pontificia U
 
 ##  Work Schedule
 
+This Gantt chart shows the planned timeline for the development of the WRO Future Engineers 2025 robot. It summarizes the main project phases—including design, mechanical build, electronics integration, software development, testing, and final optimization providing a clear view of deadlines and progress for each task.
 
-
-
-
-
+![Gantt Chart](t-photos/Gnatt%20Chart.png)
 
 ---
 
@@ -177,6 +175,30 @@ The steering system consists of the following components:
 
 ### 1. Under Column 
 
+
+### Bill of Materials (BOM)
+| **Component** | **Description** | **Qty** | **Unit Price (USD)** |
+|----------------|------------------|----------|-----------------------|
+| [Raspberry Pi 5](https://a.co/d/0I2nEqT) | Main computer used for high-level processing and running computer vision algorithms. | 1 | $98.00 |
+| [ESP32](https://a.co/d/hiSPSgg) | Microcontroller responsible for real-time control of motors and sensors, communicating with the main processor. | 1 | $10.00 |
+| [Motor Lego NXT](https://ebay.us/m/x9oEc6) | DC motor with encoder used for driving the wheels, providing precise speed and position feedback. | 1 | $7.00 |
+| [NXT Lego Cable](https://ebay.us/m/tDWV4P) | Connects NXT motors and sensors to the control electronics. | 1 | $1.50 |
+| [65mm Wheels](https://es.aliexpress.com/item/1005008744796805.html) | Provide traction and mobility to the robot. | 4 | $5.00 |
+| [H-Bridge (L298N)](https://a.co/d/6sx6nvQ) | Motor driver that allows bidirectional control of the DC motors, enabling forward and backward movement. | 1 | $2.50 |
+| [Creality Nebula Camera](https://a.co/d/1rddk0F) | Captures real-time video feed for visual processing, compatible with Raspberry Pi and AI-based image recognition. | 1 | $29.00 |
+| [Servo Motor HS-485HB](https://a.co/d/8K9dx9H) | Controls steering (front axle movement) or small actuations requiring angular precision. | 1 | $19.00 |
+| [Servo Motor Horn](https://a.co/d/hKtnZTU) | Mechanical arm attachment for the servo motor, transmits angular motion to the steering mechanism. | 1 | $9.00 |
+| [Ultrasonic Sensor (HC-SR04)](https://a.co/d/gGVXDkd) | Measures distance to nearby objects for obstacle detection and wall avoidance. | 3 | $4.50 each |
+| [MPU9250](https://a.co/d/abgbahF) | Inertial Measurement Unit (IMU) that provides accelerometer, gyroscope, and magnetometer data for orientation and navigation. | 1 | $17.00 |
+| [Switch SPST 6A](https://a.co/d/7QAXuRy) | Main power switch to safely turn the robot ON/OFF. | 1 | $0.50 |
+| [Push Button](https://a.co/d/fHT8FXe) | Used as a start/stop input for robot operation. | 1 | $1.50 |
+| Lego Motor Shaft | Mechanical part that transfers torque from the motor to the wheels/axle. | 1 | $0.10 |
+| [Dual Power Supply (DC-DC Boost)](https://es.aliexpress.com/item/1005007460824944.html) | Dual-output voltage regulator that steps up DC input to supply stable voltage levels to different modules. | 1 | $4.97 |
+| [UPS Power Supply/Converter](https://es.aliexpress.com/item/1005005195434497.html) | Uninterruptible power supply module that maintains power delivery during voltage drops or disconnections. | 1 | $1.40 |
+| [Bearings 608zz](https://a.co/d/b21FcTB) | Ball bearings used to reduce friction and support smooth wheel or axle rotation. | 2 | $0.20 |
+| [Buck Converter XL4015](https://a.co/d/3TFsw20) | Step-down voltage regulator providing a stable 5V or 12V output for the control electronics. | 1 | $0.98 |
+| [PLA Filament (Polylactic Acid)](https://a.co/d/bzdKSjG) | Material used for 3D printing the chassis and custom parts of the robot due to its light weight and ease of printing. | 1 | $25.00 |
+| **Total Estimated Cost** |  |  | **$239.85** |
 
 
 # Part 3: Power and Sense Management
