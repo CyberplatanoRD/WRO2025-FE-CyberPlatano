@@ -66,18 +66,18 @@ Our team consists of three Mechatronics Engineering students from  "Pontificia U
 #### 1. Ivan Saint-Hilaire - Software / Mechanical Eng. ####
 | Photo | Role |
 |-------|------|
-| <img src="image.png" width="200"> | Iván is responsible for designing and optimizing the mechanical components of the robot while also developing and integrating the software that controls its functions. His expertise ensures that the robot operates efficiently, accurately, and reliably, bridging the gap between hardware and software.|
+| <img src="./t-photos/Iván.jpg" width="500">  | Iván is responsible for designing and optimizing the mechanical components of the robot while also developing and integrating the software that controls its functions. His expertise ensures that the robot operates efficiently, accurately, and reliably, bridging the gap between hardware and software.|
 
 
 #### 2. Brittany Martinez - Team Coordinator and Document Designer  ####
 | Photo | Role |
 |-------|------|
-| <img src="image.png" width="200"> | Brittany is responsible for documentation. She has skills in electronics and programming, which allow her to keep the team’s processes well organized. She also ensures that all procedures and systems the team works on are carried out accurately and correctly, maintaining a clear workflow.|
+| <img src="./t-photos/Brittany.jpg" width="500"> | Brittany is responsible for documentation. She has skills in electronics and programming, which allow her to keep the team’s processes well organized. She also ensures that all procedures and systems the team works on are carried out accurately and correctly, maintaining a clear workflow.|
 
 #### 3. Maria Liz Ramos  - Electronics Eng. ####
 | Photo | Role |
 |-------|------|
-| <img src="image.png" width="200"> | María is responsible for designing, implementing, and maintaining the robot’s electronic systems, ensuring all sensors, circuits, and components function accurately and reliably for optimal performance in the competition.|
+| <img src="./t-photos/María Liz.jpg" width="400">  | María is responsible for designing, implementing, and maintaining the robot’s electronic systems, ensuring all sensors, circuits, and components function accurately and reliably for optimal performance in the competition.|
 
 #### Alvaro Zapata  - Coach ####
 | Photo | Role |
