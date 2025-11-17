@@ -161,19 +161,53 @@ The steering system consists of the following components:
 | 9 | **Steering Arm** | Intermediate printed lever that connects the servo horn to the steering link, transmitting motion. | PLA, 20% infill |
 
 ###  Steering Subassembly
+![Steering Drawing](models/steering/Steering%20Drawing%20png.png)
 
-<table align="center" style="border-collapse: collapse;">
+### 1. Under and Upper Columns 
+![Under-Upper Columns Drawing](models/steering/Under-Upper%20Columns%20Drawing%20jpg.jpg)
+
+### 2. Stands Off 
+![Stand Off Drawing](models/steering/Stand%20Off%20Drawing%20jpg.jpg)
+
+### 3. Steering Arm
+![Steering Arm Drawing](models/steering/Steering%20Arm%20jpg.jpg)
+
+### 4. Frontal Rims 
+![Frontal Rims Drawing](models/steering/Frontal%20Rims%20Drawing%20jpg.jpg)
+
+### Our Key Steering Component: HS-485HB Servo Motor
+Our primary steering component—the Hitec HS-485HB servo motor was initially chosen because it was the unit available to us at the time, extensive testing quickly proved it to be a reliable and well-suited choice for our steering system. Over more than three months of continuous use, the HS-485HB has demonstrated excellent consistency, durability, and torque stability, even under repetitive steering cycles and high-load maneuvers typical of competition environments. Its Karbonite gear train, known for increased wear resistance, has provided smooth motion transfer without backlash, and its response time has been fast enough to ensure accurate directional control on the field. What began as a practical selection evolved into a confident engineering decision, reinforced by the servo’s performance, structural robustness, and zero failure rate throughout our development process.
+
+<table>
   <tr>
-    <td style="border: 2px solid #ccc; padding: 6px;">
-      <img src="models/steering/Steering%20Drawing%20png.png" alt="Steering Drawing" width="400"/>
+    <td align="center" width="450">
+      <img src="./models/steering/Servo%20Motor%20.png" width="400">
+      <br>
+      <b>HS-485HB Servo Motor</b>
     </td>
-    <td style="border: 2px solid #ccc; padding: 6px;">
-      <img src="models/steering/Steering-Isometric.png" alt="Steering 3D View" width="420"/>
-    </td>
+    <td>
+
+| **Parameter**            | **Specification**                                   |
+|-------------------------|-----------------------------------------------------|
+| Servo type              | Standard, limited rotation (±60°)                   |
+| Operating voltage       | 4.8 V – 6.0 V                                       |
+| Torque                  | 4.8 kg·cm @ 4.8 V / 6.0 kg·cm @ 6.0 V               |
+| Speed                   | 0.22 s/60° @ 4.8 V / 0.18 s/60° @ 6.0 V             |
+| Gear material           | Karbonite (high wear resistance)                    |
+| Bearing type            | Dual ball bearings                                  |
+| Dimensions              | 39.8 × 19.8 × 38.0 mm                               |
+| Weight                  | 45 g                                                |
+| Output spline type      | 24T (Hitec)                                         |
+| PWM signal range        | 900–2100 µs (typical)                               |
+| Operating current       | ~160–200 mA (under moderate load)                   |
+| Stall current           | Up to ~1.2 A (approx., depending on load)           |
+| Case material           | Reinforced plastic                                  |
+| Connector               | Futaba-type (3-pin)                                 |
+
+  </td>
   </tr>
 </table>
 
-### 1. Under Column 
 
 
 ### Bill of Materials (BOM)
