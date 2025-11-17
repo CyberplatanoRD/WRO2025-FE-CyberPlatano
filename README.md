@@ -248,6 +248,18 @@ Throughout the development process, tests were conducted on continuity, current 
 
 The results demonstrate that the electrical system met the minimum requirements for functional operation, enabling successful integration with the mechanical and control systems. Finally, potential improvements were identified, such as the implementation of encoders, sensor filtering optimization, and PCB refinement for future versions.
 
+## Schematics
+> Diagrams and PCB Layout files available in [schemes/](schemes/).
+
+### Diagram - Preview
+[View full PDF](./schemes/WRO_Generalsquematic.pdf)
+
+![Schematic Preview](./schemes/Generalsquematicpreview.png)
+
+### PCB layout - Preview
+[View full PCB Layout](./schemes/WRO_Generalpcblayout.pdf)
+
+
 # Part 4: Obstacle/Open Management
 > CPP and Python codes files available in [src/](src/).
 
@@ -289,21 +301,6 @@ void loop() {
 ---
 
 ### Obstacle challenge
-
----
-
-## Schematics
-> Diagrams and PCB Layout files available in [schemes/](schemes/).
-
-### Diagram - Preview
-[View full PDF](./schemes/WRO_Generalsquematic.pdf)
-
-![Schematic Preview](./schemes/Generalsquematicpreview.png)
-
-### PCB layout - Preview
-[View full PCB Layout](./schemes/WRO_Generalpcblayout.pdf)
-
-
 ---
 
 ## Testing
