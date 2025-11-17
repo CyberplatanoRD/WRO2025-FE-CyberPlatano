@@ -121,6 +121,7 @@ During the design process, special attention was given to:
 
 All the 3D printable models can be found [here](#models).
 
+---
 ## Robot's Steering System 
 ---
 <p align="justify">
@@ -131,9 +132,8 @@ All the 3D printable models can be found [here](#models).
 [Click here to view 3D model!](models/steering/steeringSTL.stl)
 
 ---
-
 ### Steering System Design
-
+---
 We took inspiration from a steering design previously developed by our coach, as well as several robotic systems found online. Building upon these references, we carried out an iterative improvement process to address issues related to tolerance, rigidity, and assembly accuracy inherent to 3D-printed components.
 
 In our first prototype, the holes were designed with excessive tolerance, causing loose fits that affected the wheel hubs’ precision and stability. This led to misalignment and unwanted wheel play.
@@ -175,7 +175,9 @@ The steering system consists of the following components:
 ### 4. Frontal Rims 
 ![Frontal Rims Drawing](models/steering/Frontal%20Rims%20Drawing%20jpg.jpg)
 
+---
 ### Our Key Steering Component: HS-485HB Servo Motor
+---
 Our primary steering component—the Hitec HS-485HB servo motor was initially chosen because it was the unit available to us at the time, extensive testing quickly proved it to be a reliable and well-suited choice for our steering system. Over more than three months of continuous use, the HS-485HB has demonstrated excellent consistency, durability, and torque stability, even under repetitive steering cycles and high-load maneuvers typical of competition environments. Its Karbonite gear train, known for increased wear resistance, has provided smooth motion transfer without backlash, and its response time has been fast enough to ensure accurate directional control on the field. What began as a practical selection evolved into a confident engineering decision, reinforced by the servo’s performance, structural robustness, and zero failure rate throughout our development process.
 
 <table>
@@ -208,9 +210,9 @@ Our primary steering component—the Hitec HS-485HB servo motor was initially ch
   </tr>
 </table>
 
-
-
+---
 ### Bill of Materials (BOM)
+---
 | **Component** | **Description** | **Qty** | **Unit Price (USD)** |
 |----------------|------------------|----------|-----------------------|
 | [Raspberry Pi 5](https://a.co/d/0I2nEqT) | Main computer used for high-level processing and running computer vision algorithms. | 1 | $98.00 |
@@ -233,7 +235,6 @@ Our primary steering component—the Hitec HS-485HB servo motor was initially ch
 | [Buck Converter XL4015](https://a.co/d/3TFsw20) | Step-down voltage regulator providing a stable 5V or 12V output for the control electronics. | 1 | $0.98 |
 | [PLA Filament (Polylactic Acid)](https://a.co/d/bzdKSjG) | Material used for 3D printing the chassis and custom parts of the robot due to its light weight and ease of printing. | 1 | $25.00 |
 | **Total Estimated Cost** |  |  | **$239.85** |
-
 
 # Part 3: Power and Sense Management
 ---
